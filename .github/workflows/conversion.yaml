@@ -32,16 +32,16 @@ jobs:
       with:
         node-version: '24'
 
-    - name: Install Bruno CLI
-      run: npm install -g @usebruno/cli
+    - name: Install the vacuum CLI
+      run: npm i -g @quobix/vacuum
     
-    - name: Convert OpenAPI spec to Bruno collection
+    - name: Convert OpenAPI spec to Openapi collection
       env:
         NODE_OPTIONS: --max-old-space-size=7168
-      run: bru import openapi -s config.yaml --collection-name "Dataverse API" --collection-format "bru" -o ./dataverse
+      run: vacuum open-collection config.yaml ./dataverse/
     
-    - name: Commit and push Bruno collection
+    - name: Commit and push openapi collection
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
-        commit_message: Update Bruno collection from OpenAPI spec
+        commit_message: Update Openapi collection from OpenAPI spec [ci]
         file_pattern: ./dataverse/**
