@@ -1,0 +1,45 @@
+name: Conversion Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+         
+    - name: Read the baseUrl from baseUrl.txt
+      id: read_base_url
+      run: echo "BASE_URL=$(cat baseUrl.txt)" >> $GITHUB_ENV
+    
+    - name: Get the Latest openapi spec from the Dataverse installation
+      env:
+        OPENAPI_URL: ${{ env.BASE_URL }}/openapi
+      run: curl -L  ${{ env.OPENAPI_URL }} -o config.yaml
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install Bruno CLI
+      run: npm install -g @usebruno/cli
+    
+    - name: Convert OpenAPI spec to Bruno collection
+      run: bru import openapi config.yaml --output ./dataverse
+    
+    - name: Commit and push Bruno collection
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update Bruno collection from OpenAPI spec
+        file_pattern: ./dataverse/**
