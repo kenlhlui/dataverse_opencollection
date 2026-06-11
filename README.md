@@ -29,7 +29,7 @@ This repository is mainly designed for importing to [Bruno](https://www.usebruno
 # Bruno
 See the below video for how to import this repository to Bruno and use it to test the API endpoints.
 
-
+https://github.com/user-attachments/assets/60499d97-3021-4323-a4b1-294d253e9377
 
 # License
 [MIT](LICENSE)
