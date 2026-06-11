@@ -31,14 +31,14 @@ jobs:
       uses: actions/setup-node@v6
       with:
         node-version: '24'
-    
+
     - name: Install Bruno CLI
       run: npm install -g @usebruno/cli
     
     - name: Convert OpenAPI spec to Bruno collection
       env:
         NODE_OPTIONS: --max-old-space-size=7168
-      run: bru import openapi -s config.yaml -o ./dataverse
+      run: bru import openapi -s config.yaml --collection-name "Dataverse API" --collection-format "bru" 
     
     - name: Commit and push Bruno collection
       uses: stefanzweifel/git-auto-commit-action@v7
