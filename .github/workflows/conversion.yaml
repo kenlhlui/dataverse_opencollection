@@ -37,11 +37,11 @@ jobs:
     
     - name: Convert OpenAPI spec to Bruno collection
       env:
-        NODE_OPTIONS: --max-old-space-size=4096
+        NODE_OPTIONS: --max-old-space-size=6144
       run: bru import openapi -s config.yaml -o ./dataverse
     
     - name: Commit and push Bruno collection
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Update Bruno collection from OpenAPI spec
         file_pattern: ./dataverse/**
