@@ -28,9 +28,9 @@ jobs:
       run: curl -L  ${{ env.OPENAPI_URL }} -o config.yaml
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
-        node-version: '20'
+        node-version: '24'
     
     - name: Install Bruno CLI
       run: npm install -g @usebruno/cli
