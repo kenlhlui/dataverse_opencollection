@@ -1,8 +1,0 @@
-info:
-    name: Licenses Add License
-    type: http
-    seq: 479
-http:
-    method: POST
-    url: '{{baseUrl}}/licenses'
-    auth: inherit

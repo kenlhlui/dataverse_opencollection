@@ -1,8 +1,0 @@
-info:
-    name: Groups List Affiliation Groups
-    type: http
-    seq: 91
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/groups/affiliation'
-    auth: inherit

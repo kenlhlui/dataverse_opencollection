@@ -1,8 +1,0 @@
-info:
-    name: Datasets Update Dataset Target Urlall
-    type: http
-    seq: 214
-http:
-    method: POST
-    url: '{{baseUrl}}/datasets/modifyRegistrationAll'
-    auth: inherit

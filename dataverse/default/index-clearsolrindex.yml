@@ -1,8 +1,0 @@
-info:
-    name: Index Clear Solr Index
-    type: http
-    seq: 111
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/index/clear'
-    auth: inherit

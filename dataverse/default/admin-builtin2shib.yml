@@ -1,8 +1,0 @@
-info:
-    name: Admin Builtin2shib
-    type: http
-    seq: 31
-http:
-    method: PUT
-    url: '{{baseUrl}}/admin/authenticatedUsers/convert/builtin2shib'
-    auth: inherit

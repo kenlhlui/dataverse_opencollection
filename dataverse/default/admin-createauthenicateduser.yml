@@ -1,8 +1,0 @@
-info:
-    name: Admin Create Authenicated User
-    type: http
-    seq: 29
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/authenticatedUsers'
-    auth: inherit

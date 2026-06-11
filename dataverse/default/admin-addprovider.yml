@@ -1,8 +1,0 @@
-info:
-    name: Admin Add Provider
-    type: http
-    seq: 41
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/authenticationProviders'
-    auth: inherit

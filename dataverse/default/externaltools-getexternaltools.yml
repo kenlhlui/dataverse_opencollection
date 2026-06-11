@@ -1,8 +1,0 @@
-info:
-    name: External Tools Get External Tools
-    type: http
-    seq: 84
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/externalTools'
-    auth: inherit

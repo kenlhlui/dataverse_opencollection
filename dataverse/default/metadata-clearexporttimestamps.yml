@@ -1,8 +1,0 @@
-info:
-    name: Metadata Clear Export Timestamps
-    type: http
-    seq: 137
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/metadata/clearExportTimestamps'
-    auth: inherit

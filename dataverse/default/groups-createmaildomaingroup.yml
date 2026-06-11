@@ -1,8 +1,0 @@
-info:
-    name: Groups Create Mail Domain Group
-    type: http
-    seq: 98
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/groups/domain'
-    auth: inherit

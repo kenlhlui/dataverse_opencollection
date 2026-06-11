@@ -1,8 +1,0 @@
-info:
-    name: Dataset Fields List All Facetable Dataset Fields
-    type: http
-    seq: 204
-http:
-    method: GET
-    url: '{{baseUrl}}/datasetfields/facetables'
-    auth: inherit

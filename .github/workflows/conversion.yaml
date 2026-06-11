@@ -18,9 +18,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
          
-    - name: Read the baseUrl from baseUrl.txt
+    - name: Read the baseUrl from dv.txt
       id: read_base_url
-      run: echo "BASE_URL=$(cat baseUrl.txt)" >> $GITHUB_ENV
+      run: echo "BASE_URL=$(cat dv.txt)" >> $GITHUB_ENV
     
     - name: Get the Latest openapi spec from the Dataverse installation
       env:
@@ -38,10 +38,10 @@ jobs:
     - name: Convert OpenAPI spec to Openapi collection
       env:
         NODE_OPTIONS: --max-old-space-size=7168
-      run: vacuum open-collection config.yaml ./dataverse/
+      run: vacuum open-collection config.yaml ./dataverse_endpoints/ --name "Dataverse API" -q
     
     - name: Commit and push openapi collection
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Update Openapi collection from OpenAPI spec [ci]
-        file_pattern: ./dataverse/**
+        file_pattern: '. :!dataverse_endpoints/environments/default.yml'

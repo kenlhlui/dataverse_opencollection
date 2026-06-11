@@ -1,8 +1,0 @@
-info:
-    name: Datasets Get Dataset Summary Field Names
-    type: http
-    seq: 222
-http:
-    method: GET
-    url: '{{baseUrl}}/datasets/summaryFieldNames'
-    auth: inherit

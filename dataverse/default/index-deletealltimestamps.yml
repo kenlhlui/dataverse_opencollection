@@ -1,8 +1,0 @@
-info:
-    name: Index Delete All Timestamps
-    type: http
-    seq: 125
-http:
-    method: DELETE
-    url: '{{baseUrl}}/admin/index/timestamps'
-    auth: inherit

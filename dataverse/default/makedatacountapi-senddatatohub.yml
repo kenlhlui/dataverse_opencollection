@@ -1,8 +1,0 @@
-info:
-    name: Make Data Count Api Send Data To Hub
-    type: http
-    seq: 131
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/makeDataCount/sendToHub'
-    auth: inherit

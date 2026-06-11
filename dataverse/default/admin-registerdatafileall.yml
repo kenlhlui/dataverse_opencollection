@@ -1,8 +1,0 @@
-info:
-    name: Admin Register Data File All
-    type: http
-    seq: 145
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/registerDataFileAll'
-    auth: inherit

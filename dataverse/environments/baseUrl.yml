@@ -1,7 +1,0 @@
-name: baseUrl
-variables:
-  - name: baseUrl
-    value: https://demo.borealisdata.ca/
-    disabled: true
-  - name: baseUrl
-    value: https://borealisdata.ca/

@@ -1,8 +1,0 @@
-info:
-    name: Storage Sites Add Site
-    type: http
-    seq: 167
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/storageSites'
-    auth: inherit

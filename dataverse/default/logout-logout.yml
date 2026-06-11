@@ -1,8 +1,0 @@
-info:
-    name: Logout Logout
-    type: http
-    seq: 488
-http:
-    method: POST
-    url: '{{baseUrl}}/logout'
-    auth: inherit

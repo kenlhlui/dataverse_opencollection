@@ -1,8 +1,0 @@
-info:
-    name: Admin List Storage Drivers
-    type: http
-    seq: 75
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/dataverse/storageDrivers'
-    auth: inherit

@@ -1,8 +1,0 @@
-info:
-    name: Groups Post Affiliation Group
-    type: http
-    seq: 92
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/groups/affiliation'
-    auth: inherit

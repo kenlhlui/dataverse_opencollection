@@ -1,8 +1,0 @@
-info:
-    name: Saved Searches Meta
-    type: http
-    seq: 152
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/savedsearches'
-    auth: inherit

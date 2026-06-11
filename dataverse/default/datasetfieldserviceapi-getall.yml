@@ -1,8 +1,0 @@
-info:
-    name: Dataset Field Service Api Get All
-    type: http
-    seq: 65
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/datasetfield'
-    auth: inherit

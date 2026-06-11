@@ -1,8 +1,0 @@
-info:
-    name: Groups Post Ip Group
-    type: http
-    seq: 103
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/groups/ip'
-    auth: inherit

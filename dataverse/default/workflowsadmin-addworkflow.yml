@@ -1,8 +1,0 @@
-info:
-    name: Workflows Admin Add Workflow
-    type: http
-    seq: 184
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/workflows'
-    auth: inherit

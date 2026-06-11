@@ -1,8 +1,0 @@
-info:
-    name: Pids Get Pid Providers
-    type: http
-    seq: 507
-http:
-    method: GET
-    url: '{{baseUrl}}/pids/providers'
-    auth: inherit

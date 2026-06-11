@@ -1,8 +1,0 @@
-info:
-    name: Admin Find All Templates
-    type: http
-    seq: 175
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/templates'
-    auth: inherit

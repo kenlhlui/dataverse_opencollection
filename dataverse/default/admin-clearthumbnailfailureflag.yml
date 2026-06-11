@@ -1,8 +1,0 @@
-info:
-    name: Admin Clear Thumbnail Failure Flag
-    type: http
-    seq: 56
-http:
-    method: DELETE
-    url: '{{baseUrl}}/admin/clearThumbnailFailureFlag'
-    auth: inherit

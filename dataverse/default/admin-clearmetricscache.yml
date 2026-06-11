@@ -1,8 +1,0 @@
-info:
-    name: Admin Clear Metrics Cache
-    type: http
-    seq: 54
-http:
-    method: DELETE
-    url: '{{baseUrl}}/admin/clearMetricsCache'
-    auth: inherit

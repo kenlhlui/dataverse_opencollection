@@ -1,8 +1,0 @@
-info:
-    name: Notifications Get Muted Notifications For User
-    type: http
-    seq: 500
-http:
-    method: GET
-    url: '{{baseUrl}}/notifications/mutedNotifications'
-    auth: inherit

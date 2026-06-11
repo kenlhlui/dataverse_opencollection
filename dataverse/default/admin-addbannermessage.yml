@@ -1,8 +1,0 @@
-info:
-    name: Admin Add Banner Message
-    type: http
-    seq: 48
-http:
-    method: POST
-    url: '{{baseUrl}}/admin/bannerMessage'
-    auth: inherit

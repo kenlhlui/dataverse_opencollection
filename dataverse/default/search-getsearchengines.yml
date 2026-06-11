@@ -1,8 +1,0 @@
-info:
-    name: Search Get Search Engines
-    type: http
-    seq: 517
-http:
-    method: GET
-    url: '{{baseUrl}}/search/services'
-    auth: inherit

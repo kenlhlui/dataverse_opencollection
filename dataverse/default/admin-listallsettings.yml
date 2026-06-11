@@ -1,8 +1,0 @@
-info:
-    name: Admin List All Settings
-    type: http
-    seq: 159
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/settings'
-    auth: inherit

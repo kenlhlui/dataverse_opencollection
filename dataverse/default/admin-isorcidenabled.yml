@@ -1,8 +1,0 @@
-info:
-    name: Admin Is Orcid Enabled
-    type: http
-    seq: 128
-http:
-    method: GET
-    url: '{{baseUrl}}/admin/isOrcid'
-    auth: inherit
