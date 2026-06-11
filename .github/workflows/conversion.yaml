@@ -37,7 +37,7 @@ jobs:
     
     - name: Convert OpenAPI spec to Bruno collection
       env:
-        NODE_OPTIONS: --max-old-space-size=6144
+        NODE_OPTIONS: --max-old-space-size=7168
       run: bru import openapi -s config.yaml -o ./dataverse
     
     - name: Commit and push Bruno collection
