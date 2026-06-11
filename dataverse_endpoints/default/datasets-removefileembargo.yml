@@ -1,0 +1,12 @@
+info:
+    name: Datasets Remove File Embargo
+    type: http
+    seq: 270
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/files/actions/:unset-embargo'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

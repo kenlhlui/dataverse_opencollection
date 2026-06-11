@@ -1,0 +1,8 @@
+info:
+    name: External Tools Add External Tool
+    type: http
+    seq: 85
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/externalTools'
+    auth: inherit

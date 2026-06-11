@@ -1,0 +1,8 @@
+info:
+    name: Workflows Admin List Workflows
+    type: http
+    seq: 183
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/workflows'
+    auth: inherit

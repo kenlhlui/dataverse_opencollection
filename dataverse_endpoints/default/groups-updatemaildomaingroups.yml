@@ -1,0 +1,12 @@
+info:
+    name: Groups Update Mail Domain Groups
+    type: http
+    seq: 100
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/groups/domain/:groupAlias'
+    params:
+        - name: groupAlias
+          value: '{{groupAlias}}'
+          type: path
+    auth: inherit

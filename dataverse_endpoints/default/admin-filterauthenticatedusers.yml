@@ -1,0 +1,21 @@
+info:
+    name: Admin Filter Authenticated Users
+    type: http
+    seq: 129
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/list-users'
+    params:
+        - name: itemsPerPage
+          value: "0"
+          type: query
+        - name: searchTerm
+          value: ""
+          type: query
+        - name: selectedPage
+          value: "0"
+          type: query
+        - name: sortKey
+          value: ""
+          type: query
+    auth: inherit

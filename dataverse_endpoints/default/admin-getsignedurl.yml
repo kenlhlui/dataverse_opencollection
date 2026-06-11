@@ -1,0 +1,13 @@
+info:
+    name: Admin Get Signed Url
+    type: http
+    seq: 147
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/requestSignedUrl'
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

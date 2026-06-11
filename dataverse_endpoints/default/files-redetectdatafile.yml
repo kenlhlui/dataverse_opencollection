@@ -1,0 +1,15 @@
+info:
+    name: Files Redetect Datafile
+    type: http
+    seq: 417
+http:
+    method: POST
+    url: '{{baseUrl}}/files/:id/redetect'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: dryRun
+          value: "false"
+          type: query
+    auth: inherit

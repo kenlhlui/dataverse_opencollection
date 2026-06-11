@@ -1,0 +1,12 @@
+info:
+    name: Datasets Create File Retention
+    type: http
+    seq: 269
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/files/actions/:set-retention'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

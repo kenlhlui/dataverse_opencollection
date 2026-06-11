@@ -1,0 +1,12 @@
+info:
+    name: Admin Convert Oauth User To Builtin
+    type: http
+    seq: 33
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/authenticatedUsers/id/:id/convertRemoteToBuiltIn'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

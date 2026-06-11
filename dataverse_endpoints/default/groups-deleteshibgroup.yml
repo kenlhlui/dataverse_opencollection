@@ -1,0 +1,12 @@
+info:
+    name: Groups Delete Shib Group
+    type: http
+    seq: 109
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/groups/shib/:primaryKey'
+    params:
+        - name: primaryKey
+          value: '{{primaryKey}}'
+          type: path
+    auth: inherit

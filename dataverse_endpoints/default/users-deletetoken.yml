@@ -1,0 +1,8 @@
+info:
+    name: Users Delete Token
+    type: http
+    seq: 522
+http:
+    method: DELETE
+    url: '{{baseUrl}}/users/token'
+    auth: inherit

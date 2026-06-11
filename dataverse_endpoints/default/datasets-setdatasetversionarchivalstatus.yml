@@ -1,0 +1,20 @@
+info:
+    name: Datasets Set Dataset Version Archival Status
+    type: http
+    seq: 326
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/:version/archivalStatus'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: version
+          value: '{{version}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

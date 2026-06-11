@@ -1,0 +1,15 @@
+info:
+    name: Admin Delete Setting Lang
+    type: http
+    seq: 164
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/settings/:name/lang/:lang'
+    params:
+        - name: lang
+          value: '{{lang}}'
+          type: path
+        - name: name
+          value: '{{name}}'
+          type: path
+    auth: inherit

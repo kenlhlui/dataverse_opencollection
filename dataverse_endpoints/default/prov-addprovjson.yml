@@ -1,0 +1,20 @@
+info:
+    name: Prov Add Prov Json
+    type: http
+    seq: 415
+http:
+    method: POST
+    url: '{{baseUrl}}/files/:id/prov-json'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: entityName
+          value: ""
+          type: query
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

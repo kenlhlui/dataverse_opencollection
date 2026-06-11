@@ -1,0 +1,12 @@
+info:
+    name: Data Retriever Api Retrieve My Collection List
+    type: http
+    seq: 495
+http:
+    method: GET
+    url: '{{baseUrl}}/mydata/retrieve/collectionList'
+    params:
+        - name: userIdentifier
+          value: ""
+          type: query
+    auth: inherit

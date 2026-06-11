@@ -1,0 +1,15 @@
+info:
+    name: Licenses Set Active State
+    type: http
+    seq: 484
+http:
+    method: PUT
+    url: '{{baseUrl}}/licenses/:id/:active/:activeState'
+    params:
+        - name: activeState
+          value: '{{activeState}}'
+          type: path
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Make Data Count Api Add Usage Metrics From Sushi Report All
+    type: http
+    seq: 130
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/makeDataCount/addUsageMetricsFromSushiReport'
+    params:
+        - name: reportOnDisk
+          value: ""
+          type: query
+    auth: inherit

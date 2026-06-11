@@ -1,0 +1,12 @@
+info:
+    name: Datasets Set Citation Date
+    type: http
+    seq: 255
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/citationdate'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

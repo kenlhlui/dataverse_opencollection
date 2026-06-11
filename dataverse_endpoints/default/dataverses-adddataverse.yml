@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Add Dataverse
+    type: http
+    seq: 336
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

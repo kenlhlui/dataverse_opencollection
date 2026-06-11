@@ -1,0 +1,8 @@
+info:
+    name: Datasets Update Dataset Pidmetadata All
+    type: http
+    seq: 215
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/modifyRegistrationPIDMetadataAll'
+    auth: inherit

@@ -1,0 +1,8 @@
+info:
+    name: Groups Create Shib Group
+    type: http
+    seq: 108
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/groups/shib'
+    auth: inherit

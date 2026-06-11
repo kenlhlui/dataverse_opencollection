@@ -1,0 +1,10 @@
+info:
+    name: Info Get Terms Of Use
+    type: http
+    seq: 1
+    tags:
+        - info
+http:
+    method: GET
+    url: '{{baseUrl}}/info/apiTermsOfUse'
+    auth: inherit

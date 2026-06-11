@@ -1,0 +1,12 @@
+info:
+    name: Datasets Use Default Citation Date
+    type: http
+    seq: 256
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/citationdate'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,15 @@
+info:
+    name: Saved Searches Make Links For Single Saved Search
+    type: http
+    seq: 156
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/savedsearches/makelinks/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: debug
+          value: "false"
+          type: query
+    auth: inherit

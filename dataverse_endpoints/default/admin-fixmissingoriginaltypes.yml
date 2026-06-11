@@ -1,0 +1,8 @@
+info:
+    name: Admin Fix Missing Original Types
+    type: http
+    seq: 64
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/datafiles/integrity/fixmissingoriginaltypes'
+    auth: inherit

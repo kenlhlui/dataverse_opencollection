@@ -1,0 +1,15 @@
+info:
+    name: Harvesting Server Delete Oai Set
+    type: http
+    seq: 434
+http:
+    method: DELETE
+    url: '{{baseUrl}}/harvest/server/oaisets/:specname'
+    params:
+        - name: specname
+          value: '{{specname}}'
+          type: path
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

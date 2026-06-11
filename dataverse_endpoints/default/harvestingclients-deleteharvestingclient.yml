@@ -1,0 +1,12 @@
+info:
+    name: Harvesting Clients Delete Harvesting Client
+    type: http
+    seq: 428
+http:
+    method: DELETE
+    url: '{{baseUrl}}/harvest/clients/:nickName'
+    params:
+        - name: nickName
+          value: '{{nickName}}'
+          type: path
+    auth: inherit

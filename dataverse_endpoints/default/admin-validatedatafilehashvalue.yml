@@ -1,0 +1,12 @@
+info:
+    name: Admin Validate Data File Hash Value
+    type: http
+    seq: 181
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/validateDataFileHashValue/:fileId'
+    params:
+        - name: fileId
+          value: '{{fileId}}'
+          type: path
+    auth: inherit

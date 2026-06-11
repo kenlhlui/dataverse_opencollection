@@ -1,0 +1,12 @@
+info:
+    name: Admin Validate Dataset Datafiles
+    type: http
+    seq: 178
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/validate/dataset/files/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

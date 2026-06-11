@@ -1,0 +1,12 @@
+info:
+    name: Storage Sites Set Primary
+    type: http
+    seq: 170
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/storageSites/:id/primaryStorage'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

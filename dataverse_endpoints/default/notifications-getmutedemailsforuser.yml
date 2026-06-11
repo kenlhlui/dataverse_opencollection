@@ -1,0 +1,8 @@
+info:
+    name: Notifications Get Muted Emails For User
+    type: http
+    seq: 497
+http:
+    method: GET
+    url: '{{baseUrl}}/notifications/mutedEmails'
+    auth: inherit

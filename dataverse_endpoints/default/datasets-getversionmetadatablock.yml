@@ -1,0 +1,18 @@
+info:
+    name: Datasets Get Version Metadata Block
+    type: http
+    seq: 323
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/versions/:versionNumber/metadata/:block'
+    params:
+        - name: block
+          value: '{{block}}'
+          type: path
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionNumber
+          value: '{{versionNumber}}'
+          type: path
+    auth: inherit

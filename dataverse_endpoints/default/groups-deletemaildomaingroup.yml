@@ -1,0 +1,12 @@
+info:
+    name: Groups Delete Mail Domain Group
+    type: http
+    seq: 101
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/groups/domain/:groupAlias'
+    params:
+        - name: groupAlias
+          value: '{{groupAlias}}'
+          type: path
+    auth: inherit

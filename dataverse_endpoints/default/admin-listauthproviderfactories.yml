@@ -1,0 +1,8 @@
+info:
+    name: Admin List Auth Provider Factories
+    type: http
+    seq: 39
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/authenticationProviderFactories'
+    auth: inherit

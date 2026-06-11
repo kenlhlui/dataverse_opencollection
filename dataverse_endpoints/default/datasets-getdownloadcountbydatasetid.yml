@@ -1,0 +1,15 @@
+info:
+    name: Datasets Get Download Count By Dataset Id
+    type: http
+    seq: 265
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/download/count'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: includeMDC
+          value: "false"
+          type: query
+    auth: inherit

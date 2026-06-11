@@ -1,0 +1,15 @@
+info:
+    name: Harvesting Clients Harvesting Client
+    type: http
+    seq: 425
+http:
+    method: GET
+    url: '{{baseUrl}}/harvest/clients/:nickName'
+    params:
+        - name: nickName
+          value: '{{nickName}}'
+          type: path
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

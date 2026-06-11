@@ -1,0 +1,12 @@
+info:
+    name: Datasets Update Dataset Type With Licenses
+    type: http
+    seq: 209
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/datasetTypes/:idOrName/licenses'
+    params:
+        - name: idOrName
+          value: '{{idOrName}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Admin Enable Authentication Provider
+    type: http
+    seq: 46
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/authenticationProviders/:id/enabled'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

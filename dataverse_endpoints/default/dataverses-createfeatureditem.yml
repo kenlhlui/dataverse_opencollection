@@ -1,0 +1,17 @@
+info:
+    name: Dataverses Create Featured Item
+    type: http
+    seq: 356
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/featuredItems'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: multipart/form-data
+    body:
+        type: multipart-form
+    auth: inherit

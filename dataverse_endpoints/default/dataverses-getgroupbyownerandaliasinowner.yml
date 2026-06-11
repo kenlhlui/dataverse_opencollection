@@ -1,0 +1,15 @@
+info:
+    name: Dataverses Get Group By Owner And Alias In Owner
+    type: http
+    seq: 360
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/groups/:aliasInOwner'
+    params:
+        - name: aliasInOwner
+          value: '{{aliasInOwner}}'
+          type: path
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

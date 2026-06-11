@@ -1,0 +1,15 @@
+info:
+    name: Datasets Deaccession Dataset
+    type: http
+    seq: 315
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/versions/:versionId/deaccession'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+    auth: inherit

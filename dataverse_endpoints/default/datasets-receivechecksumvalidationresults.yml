@@ -1,0 +1,12 @@
+info:
+    name: Datasets Receive Checksum Validation Results
+    type: http
+    seq: 231
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:identifier/dataCaptureModule/checksumValidation'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

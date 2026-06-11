@@ -1,0 +1,15 @@
+info:
+    name: Dataverses Get Storage Size
+    type: http
+    seq: 385
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/storagesize'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: includeCached
+          value: "false"
+          type: query
+    auth: inherit

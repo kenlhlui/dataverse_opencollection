@@ -1,0 +1,15 @@
+info:
+    name: Datasets Update Dataset Files Limits
+    type: http
+    seq: 274
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/files/uploadlimit/:limit'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: limit
+          value: '{{limit}}'
+          type: path
+    auth: inherit

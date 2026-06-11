@@ -1,0 +1,12 @@
+info:
+    name: Prov Delete Prov Json
+    type: http
+    seq: 416
+http:
+    method: DELETE
+    url: '{{baseUrl}}/files/:id/prov-json'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Data Tags Api Receive Tags
+    type: http
+    seq: 329
+http:
+    method: POST
+    url: '{{baseUrl}}/datatags/receiveTags/:uniqueCacheId'
+    params:
+        - name: uniqueCacheId
+          value: '{{uniqueCacheId}}'
+          type: path
+    auth: inherit

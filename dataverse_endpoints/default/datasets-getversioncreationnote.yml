@@ -1,0 +1,15 @@
+info:
+    name: Datasets Get Version Creation Note
+    type: http
+    seq: 320
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/versions/:versionId/versionNote'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+    auth: inherit

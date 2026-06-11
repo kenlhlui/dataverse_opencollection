@@ -1,0 +1,12 @@
+info:
+    name: Datasets Delete Version Metadata
+    type: http
+    seq: 262
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/deleteMetadata'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,36 @@
+info:
+    name: Datasets Get Download Size
+    type: http
+    seq: 248
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:identifier/versions/:versionId/downloadsize'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+        - name: accessStatus
+          value: ""
+          type: query
+        - name: categoryName
+          value: ""
+          type: query
+        - name: contentType
+          value: ""
+          type: query
+        - name: includeDeaccessioned
+          value: "false"
+          type: query
+        - name: mode
+          value: ""
+          type: query
+        - name: searchText
+          value: ""
+          type: query
+        - name: tabularTagName
+          value: ""
+          type: query
+    auth: inherit

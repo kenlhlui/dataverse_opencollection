@@ -1,0 +1,15 @@
+info:
+    name: Datasets Clean Storage
+    type: http
+    seq: 257
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/cleanStorage'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: dryrun
+          value: "false"
+          type: query
+    auth: inherit

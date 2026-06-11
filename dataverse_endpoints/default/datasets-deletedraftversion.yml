@@ -1,0 +1,15 @@
+info:
+    name: Datasets Delete Draft Version
+    type: http
+    seq: 310
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/versions/:versionId'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,15 @@
+info:
+    name: Access Reject File Access
+    type: http
+    seq: 11
+http:
+    method: PUT
+    url: '{{baseUrl}}/access/datafile/:id/rejectAccess/:identifier'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

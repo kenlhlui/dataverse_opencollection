@@ -1,0 +1,12 @@
+info:
+    name: Index Index Status
+    type: http
+    seq: 123
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/status'
+    params:
+        - name: sync
+          value: ""
+          type: query
+    auth: inherit

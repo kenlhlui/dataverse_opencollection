@@ -1,0 +1,21 @@
+info:
+    name: Batch Import Get Import
+    type: http
+    seq: 197
+http:
+    method: GET
+    url: '{{baseUrl}}/batch/import'
+    params:
+        - name: createDV
+          value: "false"
+          type: query
+        - name: dv
+          value: ""
+          type: query
+        - name: key
+          value: ""
+          type: query
+        - name: path
+          value: ""
+          type: query
+    auth: inherit

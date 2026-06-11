@@ -1,0 +1,42 @@
+info:
+    name: Datasets Get Version Files
+    type: http
+    seq: 316
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/versions/:versionId/files'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+        - name: accessStatus
+          value: ""
+          type: query
+        - name: categoryName
+          value: ""
+          type: query
+        - name: contentType
+          value: ""
+          type: query
+        - name: includeDeaccessioned
+          value: "false"
+          type: query
+        - name: limit
+          value: "0"
+          type: query
+        - name: offset
+          value: "0"
+          type: query
+        - name: orderCriteria
+          value: ""
+          type: query
+        - name: searchText
+          value: ""
+          type: query
+        - name: tabularTagName
+          value: ""
+          type: query
+    auth: inherit

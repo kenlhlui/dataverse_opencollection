@@ -1,0 +1,13 @@
+info:
+    name: Ldninbox Accept Message
+    type: http
+    seq: 436
+http:
+    method: POST
+    url: '{{baseUrl}}/inbox'
+    headers:
+        - name: Content-Type
+          value: application/ld+json
+    body:
+        type: json
+    auth: inherit

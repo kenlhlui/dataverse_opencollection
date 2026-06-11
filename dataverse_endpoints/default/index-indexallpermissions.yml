@@ -1,0 +1,8 @@
+info:
+    name: Index Index All Permissions
+    type: http
+    seq: 119
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/perms'
+    auth: inherit

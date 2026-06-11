@@ -1,0 +1,12 @@
+info:
+    name: Pids Get Unreserved
+    type: http
+    seq: 509
+http:
+    method: GET
+    url: '{{baseUrl}}/pids/unreserved'
+    params:
+        - name: persistentId
+          value: ""
+          type: query
+    auth: inherit

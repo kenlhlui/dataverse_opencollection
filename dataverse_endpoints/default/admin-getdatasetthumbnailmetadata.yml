@@ -1,0 +1,12 @@
+info:
+    name: Admin Get Dataset Thumbnail Metadata
+    type: http
+    seq: 73
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/datasets/thumbnailMetadata/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

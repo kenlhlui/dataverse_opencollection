@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Publish Dataverse
+    type: http
+    seq: 338
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/actions/:publish'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

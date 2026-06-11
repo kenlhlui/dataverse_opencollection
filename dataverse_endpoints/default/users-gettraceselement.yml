@@ -1,0 +1,15 @@
+info:
+    name: Users Get Traces Element
+    type: http
+    seq: 529
+http:
+    method: GET
+    url: '{{baseUrl}}/users/:identifier/traces/:element'
+    params:
+        - name: element
+          value: '{{element}}'
+          type: path
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

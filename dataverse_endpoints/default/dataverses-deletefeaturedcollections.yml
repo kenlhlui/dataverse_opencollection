@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Delete Featured Collections
+    type: http
+    seq: 354
+http:
+    method: DELETE
+    url: '{{baseUrl}}/dataverses/:identifier/featured'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

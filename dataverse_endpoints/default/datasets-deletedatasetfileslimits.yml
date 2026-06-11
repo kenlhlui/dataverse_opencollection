@@ -1,0 +1,12 @@
+info:
+    name: Datasets Delete Dataset Files Limits
+    type: http
+    seq: 273
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/files/uploadlimit'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Datasets Get User Permissions On Dataset
+    type: http
+    seq: 304
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/userPermissions'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

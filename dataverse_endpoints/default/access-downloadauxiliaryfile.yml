@@ -1,0 +1,21 @@
+info:
+    name: Access Download Auxiliary File
+    type: http
+    seq: 4
+http:
+    method: GET
+    url: '{{baseUrl}}/access/datafile/:fileId/auxiliary/:formatTag/:formatVersion'
+    params:
+        - name: fileId
+          value: '{{fileId}}'
+          type: path
+        - name: formatTag
+          value: '{{formatTag}}'
+          type: path
+        - name: formatVersion
+          value: '{{formatVersion}}'
+          type: path
+    headers:
+        - name: Accept
+          value: '*/*'
+    auth: inherit

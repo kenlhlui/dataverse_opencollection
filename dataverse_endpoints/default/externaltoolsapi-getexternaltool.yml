@@ -1,0 +1,12 @@
+info:
+    name: External Tools Api Get External Tool
+    type: http
+    seq: 396
+http:
+    method: GET
+    url: '{{baseUrl}}/externalTools/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

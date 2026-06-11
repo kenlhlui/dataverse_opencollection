@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Delete Collection Quota
+    type: http
+    seq: 382
+http:
+    method: DELETE
+    url: '{{baseUrl}}/dataverses/:identifier/storage/quota'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

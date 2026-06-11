@@ -1,0 +1,12 @@
+info:
+    name: Files Get File Data Tables
+    type: http
+    seq: 401
+http:
+    method: GET
+    url: '{{baseUrl}}/files/:id/dataTables'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

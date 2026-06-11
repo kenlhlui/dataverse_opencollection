@@ -1,0 +1,15 @@
+info:
+    name: Admin Put Setting Lang
+    type: http
+    seq: 163
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/settings/:name/lang/:lang'
+    params:
+        - name: lang
+          value: '{{lang}}'
+          type: path
+        - name: name
+          value: '{{name}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,8 @@
+info:
+    name: Send Feedback Api Submit Feedback
+    type: http
+    seq: 518
+http:
+    method: POST
+    url: '{{baseUrl}}/sendfeedback'
+    auth: inherit

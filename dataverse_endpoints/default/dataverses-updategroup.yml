@@ -1,0 +1,15 @@
+info:
+    name: Dataverses Update Group
+    type: http
+    seq: 361
+http:
+    method: PUT
+    url: '{{baseUrl}}/dataverses/:identifier/groups/:aliasInOwner'
+    params:
+        - name: aliasInOwner
+          value: '{{aliasInOwner}}'
+          type: path
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

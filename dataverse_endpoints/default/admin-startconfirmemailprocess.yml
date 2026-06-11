@@ -1,0 +1,12 @@
+info:
+    name: Admin Start Confirm Email Process
+    type: http
+    seq: 60
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/confirmEmail/:userId'
+    params:
+        - name: userId
+          value: '{{userId}}'
+          type: path
+    auth: inherit

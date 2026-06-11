@@ -1,0 +1,12 @@
+info:
+    name: Datasets Reset Guestbook Entry At Request
+    type: http
+    seq: 235
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:identifier/guestbookEntryAtRequest'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

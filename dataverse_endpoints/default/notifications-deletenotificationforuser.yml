@@ -1,0 +1,12 @@
+info:
+    name: Notifications Delete Notification For User
+    type: http
+    seq: 504
+http:
+    method: DELETE
+    url: '{{baseUrl}}/notifications/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

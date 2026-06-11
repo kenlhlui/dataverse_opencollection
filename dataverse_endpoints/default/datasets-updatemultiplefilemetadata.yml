@@ -1,0 +1,17 @@
+info:
+    name: Datasets Update Multiple File Metadata
+    type: http
+    seq: 272
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/files/metadata'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

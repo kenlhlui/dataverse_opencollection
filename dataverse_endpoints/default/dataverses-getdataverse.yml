@@ -1,0 +1,18 @@
+info:
+    name: Dataverses Get Dataverse
+    type: http
+    seq: 334
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: returnChildCount
+          value: "false"
+          type: query
+        - name: returnOwners
+          value: "false"
+          type: query
+    auth: inherit

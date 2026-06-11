@@ -1,0 +1,12 @@
+info:
+    name: Datasets Delete Preview Url
+    type: http
+    seq: 291
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/previewUrl'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

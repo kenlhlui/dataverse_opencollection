@@ -1,0 +1,12 @@
+info:
+    name: Admin Delete Banner Message
+    type: http
+    seq: 49
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/bannerMessage/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

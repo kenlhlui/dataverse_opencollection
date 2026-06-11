@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Get Dataset Schema
+    type: http
+    seq: 344
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/datasetSchema'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

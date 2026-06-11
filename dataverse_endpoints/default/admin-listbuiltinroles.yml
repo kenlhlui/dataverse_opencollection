@@ -1,0 +1,8 @@
+info:
+    name: Admin List Builtin Roles
+    type: http
+    seq: 148
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/roles'
+    auth: inherit

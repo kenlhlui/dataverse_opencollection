@@ -1,0 +1,15 @@
+info:
+    name: Datasets Add Version Note
+    type: http
+    seq: 321
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/versions/:versionId/versionNote'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: versionId
+          value: '{{versionId}}'
+          type: path
+    auth: inherit

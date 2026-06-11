@@ -1,0 +1,15 @@
+info:
+    name: Datasets Set Data File As Thumbnail
+    type: http
+    seq: 302
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/thumbnail/:dataFileId'
+    params:
+        - name: dataFileId
+          value: '{{dataFileId}}'
+          type: path
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

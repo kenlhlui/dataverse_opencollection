@@ -1,0 +1,8 @@
+info:
+    name: Files Get Fixity Algorithm
+    type: http
+    seq: 398
+http:
+    method: GET
+    url: '{{baseUrl}}/files/fixityAlgorithm'
+    auth: inherit

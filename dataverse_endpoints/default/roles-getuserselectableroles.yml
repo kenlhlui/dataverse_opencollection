@@ -1,0 +1,8 @@
+info:
+    name: Roles Get User Selectable Roles
+    type: http
+    seq: 513
+http:
+    method: GET
+    url: '{{baseUrl}}/roles/userSelectable'
+    auth: inherit

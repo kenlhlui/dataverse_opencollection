@@ -1,0 +1,12 @@
+info:
+    name: Users Remove User Roles
+    type: http
+    seq: 527
+http:
+    method: POST
+    url: '{{baseUrl}}/users/:identifier/removeRoles'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

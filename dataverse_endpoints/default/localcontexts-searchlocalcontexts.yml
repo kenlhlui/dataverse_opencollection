@@ -1,0 +1,15 @@
+info:
+    name: Local Contexts Search Local Contexts
+    type: http
+    seq: 487
+http:
+    method: GET
+    url: '{{baseUrl}}/localcontexts/datasets/:id/:projectId'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: projectId
+          value: '{{projectId}}'
+          type: path
+    auth: inherit

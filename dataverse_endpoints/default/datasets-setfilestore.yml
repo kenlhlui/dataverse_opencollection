@@ -1,0 +1,12 @@
+info:
+    name: Datasets Set File Store
+    type: http
+    seq: 244
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:identifier/storageDriver'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,15 @@
+info:
+    name: Admin Validate Dataset
+    type: http
+    seq: 179
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/validate/dataset/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: variables
+          value: "false"
+          type: query
+    auth: inherit

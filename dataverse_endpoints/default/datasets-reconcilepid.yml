@@ -1,0 +1,12 @@
+info:
+    name: Datasets Reconcile Pid
+    type: http
+    seq: 242
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:identifier/pidReconcile'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

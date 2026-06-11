@@ -1,0 +1,12 @@
+info:
+    name: Admin Delete Setting
+    type: http
+    seq: 162
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/settings/:name'
+    params:
+        - name: name
+          value: '{{name}}'
+          type: path
+    auth: inherit

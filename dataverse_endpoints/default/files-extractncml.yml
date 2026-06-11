@@ -1,0 +1,12 @@
+info:
+    name: Files Extract Ncml
+    type: http
+    seq: 404
+http:
+    method: POST
+    url: '{{baseUrl}}/files/:id/extractNcml'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

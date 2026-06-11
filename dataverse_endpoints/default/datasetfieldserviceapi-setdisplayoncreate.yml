@@ -1,0 +1,15 @@
+info:
+    name: Dataset Field Service Api Set Display On Create
+    type: http
+    seq: 70
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/datasetfield/setDisplayOnCreate'
+    params:
+        - name: datasetFieldType
+          value: ""
+          type: query
+        - name: setDisplayOnCreate
+          value: "false"
+          type: query
+    auth: inherit

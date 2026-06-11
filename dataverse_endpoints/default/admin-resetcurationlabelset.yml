@@ -1,0 +1,12 @@
+info:
+    name: Admin Reset Curation Label Set
+    type: http
+    seq: 79
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/dataverse/:alias/curationLabelSet'
+    params:
+        - name: alias
+          value: '{{alias}}'
+          type: path
+    auth: inherit

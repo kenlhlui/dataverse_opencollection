@@ -1,0 +1,8 @@
+info:
+    name: Workflows Admin Delete Ip Whitelist
+    type: http
+    seq: 191
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/workflows/ip-whitelist'
+    auth: inherit

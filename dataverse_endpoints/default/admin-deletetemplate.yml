@@ -1,0 +1,12 @@
+info:
+    name: Admin Delete Template
+    type: http
+    seq: 174
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/template/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

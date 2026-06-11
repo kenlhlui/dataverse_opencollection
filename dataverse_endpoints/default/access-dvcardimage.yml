@@ -1,0 +1,15 @@
+info:
+    name: Access Dv Card Image
+    type: http
+    seq: 22
+http:
+    method: GET
+    url: '{{baseUrl}}/access/dvCardImage/:dataverseId'
+    params:
+        - name: dataverseId
+          value: '{{dataverseId}}'
+          type: path
+    headers:
+        - name: Accept
+          value: image/png
+    auth: inherit
