@@ -5,3 +5,6 @@ variables:
     disabled: true
   - name: baseUrl
     value: https://borealisdata.ca/api/
+  - secret: true
+    name: API_TOKEN
+    disabled: true
