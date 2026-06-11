@@ -1,0 +1,20 @@
+info:
+    name: Uploads a Globus file for a dataset
+    type: http
+    seq: 1
+    tags:
+        - addGlobusFilesToDataset
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/addGlobusFiles'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: multipart/form-data
+    body:
+        type: multipart-form
+    auth: inherit
+docs: Uploads a Globus file for a dataset

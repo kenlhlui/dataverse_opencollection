@@ -1,0 +1,18 @@
+info:
+    name: Builtin Users Save
+    type: http
+    seq: 200
+http:
+    method: POST
+    url: '{{baseUrl}}/builtin-users'
+    params:
+        - name: key
+          value: ""
+          type: query
+        - name: password
+          value: ""
+          type: query
+        - name: sendEmailNotification
+          value: "false"
+          type: query
+    auth: inherit

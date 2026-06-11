@@ -1,0 +1,8 @@
+info:
+    name: Saved Searches Add
+    type: http
+    seq: 153
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/savedsearches'
+    auth: inherit

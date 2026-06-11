@@ -1,0 +1,15 @@
+info:
+    name: Datasets Link Dataset
+    type: http
+    seq: 328
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:linkedDatasetId/link/:linkingDataverseAlias'
+    params:
+        - name: linkedDatasetId
+          value: '{{linkedDatasetId}}'
+          type: path
+        - name: linkingDataverseAlias
+          value: '{{linkingDataverseAlias}}'
+          type: path
+    auth: inherit

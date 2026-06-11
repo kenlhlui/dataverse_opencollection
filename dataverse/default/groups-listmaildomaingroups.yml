@@ -1,0 +1,8 @@
+info:
+    name: Groups List Mail Domain Groups
+    type: http
+    seq: 97
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/groups/domain'
+    auth: inherit

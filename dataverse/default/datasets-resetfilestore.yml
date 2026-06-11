@@ -1,0 +1,12 @@
+info:
+    name: Datasets Reset File Store
+    type: http
+    seq: 245
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:identifier/storageDriver'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

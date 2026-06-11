@@ -1,0 +1,10 @@
+info:
+    name: Info Get Allows Incomplete Metadata
+    type: http
+    seq: 9
+    tags:
+        - info
+http:
+    method: GET
+    url: '{{baseUrl}}/info/settings/incompleteMetadataViaApi'
+    auth: inherit

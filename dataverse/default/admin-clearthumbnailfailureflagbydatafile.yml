@@ -1,0 +1,12 @@
+info:
+    name: Admin Clear Thumbnail Failure Flag By Datafile
+    type: http
+    seq: 57
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/clearThumbnailFailureFlag/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

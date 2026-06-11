@@ -1,0 +1,12 @@
+info:
+    name: Files Delete File In Dataset
+    type: http
+    seq: 400
+http:
+    method: DELETE
+    url: '{{baseUrl}}/files/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,17 @@
+info:
+    name: Dataverses Set Metadata Block Facets
+    type: http
+    seq: 371
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/metadatablockfacets'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

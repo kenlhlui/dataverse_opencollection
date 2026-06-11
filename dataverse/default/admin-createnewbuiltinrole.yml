@@ -1,0 +1,8 @@
+info:
+    name: Admin Create New Builtin Role
+    type: http
+    seq: 149
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/roles'
+    auth: inherit

@@ -1,0 +1,8 @@
+info:
+    name: Mail Send Mail
+    type: http
+    seq: 489
+http:
+    method: GET
+    url: '{{baseUrl}}/mail/notifications'
+    auth: inherit

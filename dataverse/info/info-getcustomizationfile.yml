@@ -1,0 +1,14 @@
+info:
+    name: Info Get Customization File
+    type: http
+    seq: 8
+    tags:
+        - info
+http:
+    method: GET
+    url: '{{baseUrl}}/info/settings/customization/:customizationFileType'
+    params:
+        - name: customizationFileType
+          value: '{{customizationFileType}}'
+          type: path
+    auth: inherit

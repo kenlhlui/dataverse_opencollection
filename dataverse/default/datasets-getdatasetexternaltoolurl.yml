@@ -1,0 +1,20 @@
+info:
+    name: Datasets Get Dataset External Tool Url
+    type: http
+    seq: 267
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/externalTool/:tid/toolUrl'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: tid
+          value: '{{tid}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

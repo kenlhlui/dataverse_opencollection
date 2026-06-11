@@ -1,0 +1,12 @@
+info:
+    name: Licenses Get License By Id
+    type: http
+    seq: 482
+http:
+    method: GET
+    url: '{{baseUrl}}/licenses/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

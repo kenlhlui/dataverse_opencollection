@@ -1,0 +1,12 @@
+info:
+    name: Admin Deactivate Authenticated User
+    type: http
+    seq: 38
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/authenticatedUsers/:identifier/deactivate'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

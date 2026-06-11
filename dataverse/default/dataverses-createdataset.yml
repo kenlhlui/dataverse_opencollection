@@ -1,0 +1,20 @@
+info:
+    name: Dataverses Create Dataset
+    type: http
+    seq: 345
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/datasets'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: doNotValidate
+          value: ""
+          type: query
+    headers:
+        - name: Content-Type
+          value: application/ld+json
+    body:
+        type: json
+    auth: inherit

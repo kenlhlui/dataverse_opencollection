@@ -1,0 +1,12 @@
+info:
+    name: Access Get User File Access Requested
+    type: http
+    seq: 14
+http:
+    method: GET
+    url: '{{baseUrl}}/access/datafile/:id/userFileAccessRequested'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

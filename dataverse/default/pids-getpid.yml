@@ -1,0 +1,12 @@
+info:
+    name: Pids Get Pid
+    type: http
+    seq: 506
+http:
+    method: GET
+    url: '{{baseUrl}}/pids'
+    params:
+        - name: persistentId
+          value: ""
+          type: query
+    auth: inherit

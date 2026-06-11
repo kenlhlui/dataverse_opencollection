@@ -1,0 +1,21 @@
+info:
+    name: Datasets Get Make Data Count Metric
+    type: http
+    seq: 281
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:id/makeDataCount/:metric/:yyyymm'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: metric
+          value: '{{metric}}'
+          type: path
+        - name: yyyymm
+          value: '{{yyyymm}}'
+          type: path
+        - name: country
+          value: ""
+          type: query
+    auth: inherit

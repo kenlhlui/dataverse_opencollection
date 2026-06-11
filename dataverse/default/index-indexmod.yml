@@ -1,0 +1,15 @@
+info:
+    name: Index Index Mod
+    type: http
+    seq: 118
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/mod'
+    params:
+        - name: partitions
+          value: "0"
+          type: query
+        - name: which
+          value: "0"
+          type: query
+    auth: inherit

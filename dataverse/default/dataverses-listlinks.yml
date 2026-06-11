@@ -1,0 +1,12 @@
+info:
+    name: Dataverses List Links
+    type: http
+    seq: 369
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/links'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

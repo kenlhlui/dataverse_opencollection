@@ -1,0 +1,15 @@
+info:
+    name: Datasets Delete Dataset Linking Dataverse
+    type: http
+    seq: 223
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:datasetId/deleteLink/:linkedDataverseId'
+    params:
+        - name: datasetId
+          value: '{{datasetId}}'
+          type: path
+        - name: linkedDataverseId
+          value: '{{linkedDataverseId}}'
+          type: path
+    auth: inherit

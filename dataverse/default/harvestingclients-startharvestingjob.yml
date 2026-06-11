@@ -1,0 +1,15 @@
+info:
+    name: Harvesting Clients Start Harvesting Job
+    type: http
+    seq: 429
+http:
+    method: POST
+    url: '{{baseUrl}}/harvest/clients/:nickName/run'
+    params:
+        - name: nickName
+          value: '{{nickName}}'
+          type: path
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

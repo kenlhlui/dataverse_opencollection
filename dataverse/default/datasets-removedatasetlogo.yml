@@ -1,0 +1,12 @@
+info:
+    name: Datasets Remove Dataset Logo
+    type: http
+    seq: 300
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/thumbnail'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

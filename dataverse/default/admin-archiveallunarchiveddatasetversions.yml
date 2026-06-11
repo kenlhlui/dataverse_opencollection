@@ -1,0 +1,18 @@
+info:
+    name: Admin Archive All Unarchived Dataset Versions
+    type: http
+    seq: 25
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/archiveAllUnarchivedDatasetVersions'
+    params:
+        - name: latestonly
+          value: "false"
+          type: query
+        - name: limit
+          value: "0"
+          type: query
+        - name: listonly
+          value: "false"
+          type: query
+    auth: inherit

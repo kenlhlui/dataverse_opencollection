@@ -1,0 +1,18 @@
+info:
+    name: Dataverses Import Dataset
+    type: http
+    seq: 346
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/datasets/:import'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: pid
+          value: ""
+          type: query
+        - name: release
+          value: ""
+          type: query
+    auth: inherit

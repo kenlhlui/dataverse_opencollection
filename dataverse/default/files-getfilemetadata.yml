@@ -1,0 +1,12 @@
+info:
+    name: Files Get File Metadata
+    type: http
+    seq: 406
+http:
+    method: GET
+    url: '{{baseUrl}}/files/:id/metadata'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

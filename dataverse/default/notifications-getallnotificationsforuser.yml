@@ -1,0 +1,12 @@
+info:
+    name: Notifications Get All Notifications For User
+    type: http
+    seq: 496
+http:
+    method: GET
+    url: '{{baseUrl}}/notifications/all'
+    params:
+        - name: inAppNotificationFormat
+          value: "false"
+          type: query
+    auth: inherit

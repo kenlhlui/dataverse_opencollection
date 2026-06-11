@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Set Facets
+    type: http
+    seq: 351
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/facets'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

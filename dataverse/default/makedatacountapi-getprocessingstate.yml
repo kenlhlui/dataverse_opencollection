@@ -1,0 +1,12 @@
+info:
+    name: Make Data Count Api Get Processing State
+    type: http
+    seq: 134
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/makeDataCount/:yearMonth/processingState'
+    params:
+        - name: yearMonth
+          value: '{{yearMonth}}'
+          type: path
+    auth: inherit

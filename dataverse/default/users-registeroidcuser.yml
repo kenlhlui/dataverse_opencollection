@@ -1,0 +1,8 @@
+info:
+    name: Users Register Oidcuser
+    type: http
+    seq: 520
+http:
+    method: POST
+    url: '{{baseUrl}}/users/register'
+    auth: inherit

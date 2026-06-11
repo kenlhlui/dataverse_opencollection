@@ -1,0 +1,8 @@
+info:
+    name: Admin Builtin2oauth
+    type: http
+    seq: 30
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/authenticatedUsers/convert/builtin2oauth'
+    auth: inherit

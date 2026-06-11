@@ -1,0 +1,18 @@
+info:
+    name: Builtin Users Create With Notification
+    type: http
+    seq: 202
+http:
+    method: POST
+    url: '{{baseUrl}}/builtin-users/:password/:key/:sendEmailNotification'
+    params:
+        - name: key
+          value: '{{key}}'
+          type: path
+        - name: password
+          value: '{{password}}'
+          type: path
+        - name: sendEmailNotification
+          value: '{{sendEmailNotification}}'
+          type: path
+    auth: inherit

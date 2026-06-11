@@ -1,0 +1,12 @@
+info:
+    name: Roles Create New Role
+    type: http
+    seq: 512
+http:
+    method: POST
+    url: '{{baseUrl}}/roles'
+    params:
+        - name: dvo
+          value: ""
+          type: query
+    auth: inherit

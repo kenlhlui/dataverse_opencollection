@@ -1,0 +1,18 @@
+info:
+    name: Datasets Move Dataset
+    type: http
+    seq: 288
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/move/:targetDataverseAlias'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: targetDataverseAlias
+          value: '{{targetDataverseAlias}}'
+          type: path
+        - name: forceMove
+          value: "false"
+          type: query
+    auth: inherit

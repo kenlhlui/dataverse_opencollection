@@ -1,0 +1,12 @@
+info:
+    name: Admin Get Setting
+    type: http
+    seq: 160
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/settings/:name'
+    params:
+        - name: name
+          value: '{{name}}'
+          type: path
+    auth: inherit

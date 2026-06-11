@@ -1,0 +1,15 @@
+info:
+    name: Harvesting Server Modify Oai Set
+    type: http
+    seq: 433
+http:
+    method: PUT
+    url: '{{baseUrl}}/harvest/server/oaisets/:specname'
+    params:
+        - name: specname
+          value: '{{specname}}'
+          type: path
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

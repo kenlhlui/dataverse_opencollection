@@ -1,0 +1,17 @@
+info:
+    name: Dataverses Validate Dataset Json
+    type: http
+    seq: 389
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/validateDatasetJson'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

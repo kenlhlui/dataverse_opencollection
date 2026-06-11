@@ -1,0 +1,15 @@
+info:
+    name: Users Merge In Authenticated User
+    type: http
+    seq: 524
+http:
+    method: POST
+    url: '{{baseUrl}}/users/:consumedIdentifier/mergeIntoUser/:baseIdentifier'
+    params:
+        - name: baseIdentifier
+          value: '{{baseIdentifier}}'
+          type: path
+        - name: consumedIdentifier
+          value: '{{consumedIdentifier}}'
+          type: path
+    auth: inherit

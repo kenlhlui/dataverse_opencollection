@@ -1,0 +1,18 @@
+info:
+    name: Dataverses Update Attribute
+    type: http
+    seq: 342
+http:
+    method: PUT
+    url: '{{baseUrl}}/dataverses/:identifier/attribute/:attribute'
+    params:
+        - name: attribute
+          value: '{{attribute}}'
+          type: path
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: value
+          value: ""
+          type: query
+    auth: inherit

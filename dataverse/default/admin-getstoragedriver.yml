@@ -1,0 +1,12 @@
+info:
+    name: Admin Get Storage Driver
+    type: http
+    seq: 80
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/dataverse/:alias/storageDriver'
+    params:
+        - name: alias
+          value: '{{alias}}'
+          type: path
+    auth: inherit

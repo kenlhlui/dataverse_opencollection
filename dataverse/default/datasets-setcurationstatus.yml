@@ -1,0 +1,15 @@
+info:
+    name: Datasets Set Curation Status
+    type: http
+    seq: 259
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/curationStatus'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: label
+          value: ""
+          type: query
+    auth: inherit

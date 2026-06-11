@@ -1,0 +1,21 @@
+info:
+    name: Index Get File Metadata By Dataset Id
+    type: http
+    seq: 116
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/filemetadata/:dataset_id'
+    params:
+        - name: dataset_id
+          value: '{{dataset_id}}'
+          type: path
+        - name: maxResults
+          value: "0"
+          type: query
+        - name: order
+          value: ""
+          type: query
+        - name: sort
+          value: ""
+          type: query
+    auth: inherit

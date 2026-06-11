@@ -1,0 +1,12 @@
+info:
+    name: Datasets Destroy Dataset
+    type: http
+    seq: 263
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:id/destroy'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

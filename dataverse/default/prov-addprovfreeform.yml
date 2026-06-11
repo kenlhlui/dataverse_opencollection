@@ -1,0 +1,17 @@
+info:
+    name: Prov Add Prov Free Form
+    type: http
+    seq: 413
+http:
+    method: POST
+    url: '{{baseUrl}}/files/:id/prov-freeform'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

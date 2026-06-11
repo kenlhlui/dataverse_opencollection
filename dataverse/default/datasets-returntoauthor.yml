@@ -1,0 +1,12 @@
+info:
+    name: Datasets Return To Author
+    type: http
+    seq: 297
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/returnToAuthor'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

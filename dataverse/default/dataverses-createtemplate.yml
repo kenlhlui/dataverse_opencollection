@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Create Template
+    type: http
+    seq: 387
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/templates'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

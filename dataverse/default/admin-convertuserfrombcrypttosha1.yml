@@ -1,0 +1,8 @@
+info:
+    name: Admin Convert User From Bcrypt To Sha1
+    type: http
+    seq: 61
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/convertUserFromBcryptToSha1'
+    auth: inherit

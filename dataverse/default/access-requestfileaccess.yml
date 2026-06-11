@@ -1,0 +1,12 @@
+info:
+    name: Access Request File Access
+    type: http
+    seq: 12
+http:
+    method: PUT
+    url: '{{baseUrl}}/access/datafile/:id/requestAccess'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

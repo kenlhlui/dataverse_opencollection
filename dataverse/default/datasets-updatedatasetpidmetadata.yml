@@ -1,0 +1,12 @@
+info:
+    name: Datasets Update Dataset Pidmetadata
+    type: http
+    seq: 286
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/modifyRegistrationMetadata'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Saved Searches Make Links For All Saved Searches
+    type: http
+    seq: 155
+http:
+    method: PUT
+    url: '{{baseUrl}}/admin/savedsearches/makelinks/all'
+    params:
+        - name: debug
+          value: "false"
+          type: query
+    auth: inherit

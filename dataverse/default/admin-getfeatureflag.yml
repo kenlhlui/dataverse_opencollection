@@ -1,0 +1,12 @@
+info:
+    name: Admin Get Feature Flag
+    type: http
+    seq: 89
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/featureFlags/:flag'
+    params:
+        - name: flag
+          value: '{{flag}}'
+          type: path
+    auth: inherit

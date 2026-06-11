@@ -1,0 +1,12 @@
+info:
+    name: Admin Get Assignments For
+    type: http
+    seq: 27
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/assignments/assignees/:raIdtf'
+    params:
+        - name: raIdtf
+          value: '{{raIdtf}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Dataverses List Featured Items
+    type: http
+    seq: 355
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/featuredItems'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,36 @@
+info:
+    name: Data Retriever Api Retrieve My Data As Json String
+    type: http
+    seq: 494
+http:
+    method: GET
+    url: '{{baseUrl}}/mydata/retrieve'
+    params:
+        - name: dataset_valid
+          value: '[]'
+          type: query
+        - name: dvobject_types
+          value: '[]'
+          type: query
+        - name: filter_validities
+          value: "false"
+          type: query
+        - name: mydata_search_term
+          value: ""
+          type: query
+        - name: published_states
+          value: '[]'
+          type: query
+        - name: role_ids
+          value: '[]'
+          type: query
+        - name: selected_page
+          value: "0"
+          type: query
+        - name: userIdentifier
+          value: ""
+          type: query
+    headers:
+        - name: Accept
+          value: application/json
+    auth: inherit

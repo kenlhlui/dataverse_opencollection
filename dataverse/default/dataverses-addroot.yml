@@ -1,0 +1,8 @@
+info:
+    name: Dataverses Add Root
+    type: http
+    seq: 332
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses'
+    auth: inherit

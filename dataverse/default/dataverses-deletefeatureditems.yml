@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Delete Featured Items
+    type: http
+    seq: 357
+http:
+    method: DELETE
+    url: '{{baseUrl}}/dataverses/:identifier/featuredItems'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

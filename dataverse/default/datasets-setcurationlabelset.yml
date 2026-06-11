@@ -1,0 +1,15 @@
+info:
+    name: Datasets Set Curation Label Set
+    type: http
+    seq: 229
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:identifier/curationLabelSet'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: name
+          value: ""
+          type: query
+    auth: inherit

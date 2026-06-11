@@ -1,0 +1,18 @@
+info:
+    name: Make Data Count Api Update Processing State
+    type: http
+    seq: 135
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/makeDataCount/:yearMonth/processingState'
+    params:
+        - name: yearMonth
+          value: '{{yearMonth}}'
+          type: path
+        - name: server
+          value: ""
+          type: query
+        - name: state
+          value: ""
+          type: query
+    auth: inherit

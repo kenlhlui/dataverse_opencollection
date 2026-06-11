@@ -1,0 +1,8 @@
+info:
+    name: External Tools Api Add External Tool
+    type: http
+    seq: 395
+http:
+    method: POST
+    url: '{{baseUrl}}/externalTools'
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Notifications Mark Notification As Read For User
+    type: http
+    seq: 505
+http:
+    method: PUT
+    url: '{{baseUrl}}/notifications/:id/markAsRead'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

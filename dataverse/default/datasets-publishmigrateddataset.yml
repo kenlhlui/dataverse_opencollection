@@ -1,0 +1,20 @@
+info:
+    name: Datasets Publish Migrated Dataset
+    type: http
+    seq: 253
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/actions/:releasemigrated'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: updatepidatprovider
+          value: "false"
+          type: query
+    headers:
+        - name: Content-Type
+          value: application/ld+json
+    body:
+        type: json
+    auth: inherit

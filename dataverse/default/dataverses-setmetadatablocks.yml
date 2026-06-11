@@ -1,0 +1,12 @@
+info:
+    name: Dataverses Set Metadata Blocks
+    type: http
+    seq: 374
+http:
+    method: POST
+    url: '{{baseUrl}}/dataverses/:identifier/metadatablocks'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

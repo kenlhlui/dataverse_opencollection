@@ -1,0 +1,12 @@
+info:
+    name: Pids Delete Pid
+    type: http
+    seq: 510
+http:
+    method: DELETE
+    url: '{{baseUrl}}/pids/:id/delete'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

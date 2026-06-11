@@ -1,0 +1,12 @@
+info:
+    name: Licenses Set Default
+    type: http
+    seq: 481
+http:
+    method: PUT
+    url: '{{baseUrl}}/licenses/default/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

@@ -1,0 +1,10 @@
+info:
+    name: Info Get Shib Institution Ignore List
+    type: http
+    seq: 4
+    tags:
+        - info
+http:
+    method: GET
+    url: '{{baseUrl}}/info/idpignorelist'
+    auth: inherit

@@ -1,0 +1,12 @@
+info:
+    name: Harvesting Server Oai Sets
+    type: http
+    seq: 430
+http:
+    method: GET
+    url: '{{baseUrl}}/harvest/server/oaisets'
+    params:
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

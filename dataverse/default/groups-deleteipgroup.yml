@@ -1,0 +1,12 @@
+info:
+    name: Groups Delete Ip Group
+    type: http
+    seq: 106
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/groups/ip/:group'
+    params:
+        - name: group
+          value: '{{group}}'
+          type: path
+    auth: inherit

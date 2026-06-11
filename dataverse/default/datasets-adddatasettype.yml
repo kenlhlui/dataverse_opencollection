@@ -1,0 +1,8 @@
+info:
+    name: Datasets Add Dataset Type
+    type: http
+    seq: 206
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/datasetTypes'
+    auth: inherit

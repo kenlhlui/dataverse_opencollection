@@ -1,0 +1,15 @@
+info:
+    name: Index Search Perms Debug
+    type: http
+    seq: 121
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/permsDebug'
+    params:
+        - name: id
+          value: "0"
+          type: query
+        - name: key
+          value: ""
+          type: query
+    auth: inherit

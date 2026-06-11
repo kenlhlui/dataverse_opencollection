@@ -1,0 +1,15 @@
+info:
+    name: Admin Compute Data File Hash Value
+    type: http
+    seq: 58
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/computeDataFileHashValue/:fileId/algorithm/:alg'
+    params:
+        - name: alg
+          value: '{{alg}}'
+          type: path
+        - name: fileId
+          value: '{{fileId}}'
+          type: path
+    auth: inherit

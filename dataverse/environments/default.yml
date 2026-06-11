@@ -1,0 +1,4 @@
+name: default
+variables:
+    - name: baseUrl
+      value: http://localhost

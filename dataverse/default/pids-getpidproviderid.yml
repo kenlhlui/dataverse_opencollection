@@ -1,0 +1,12 @@
+info:
+    name: Pids Get Pid Provider Id
+    type: http
+    seq: 508
+http:
+    method: GET
+    url: '{{baseUrl}}/pids/providers/:persistentId'
+    params:
+        - name: persistentId
+          value: '{{persistentId}}'
+          type: path
+    auth: inherit

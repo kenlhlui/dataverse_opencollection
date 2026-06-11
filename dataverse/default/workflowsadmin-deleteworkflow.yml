@@ -1,0 +1,12 @@
+info:
+    name: Workflows Admin Delete Workflow
+    type: http
+    seq: 193
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/workflows/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

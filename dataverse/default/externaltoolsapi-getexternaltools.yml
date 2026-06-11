@@ -1,0 +1,8 @@
+info:
+    name: External Tools Api Get External Tools
+    type: http
+    seq: 394
+http:
+    method: GET
+    url: '{{baseUrl}}/externalTools'
+    auth: inherit

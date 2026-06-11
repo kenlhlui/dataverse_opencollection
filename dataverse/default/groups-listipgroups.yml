@@ -1,0 +1,8 @@
+info:
+    name: Groups List Ip Groups
+    type: http
+    seq: 102
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/groups/ip'
+    auth: inherit

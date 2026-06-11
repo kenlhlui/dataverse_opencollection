@@ -1,0 +1,17 @@
+info:
+    name: Dataverses Update Featured Items
+    type: http
+    seq: 333
+http:
+    method: PUT
+    url: '{{baseUrl}}/dataverses/:dataverseId/featuredItems'
+    params:
+        - name: dataverseId
+          value: '{{dataverseId}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: multipart/form-data
+    body:
+        type: multipart-form
+    auth: inherit

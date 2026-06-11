@@ -1,0 +1,12 @@
+info:
+    name: Datasets Get Curation States
+    type: http
+    seq: 212
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/listCurationStates'
+    params:
+        - name: includeHistory
+          value: "false"
+          type: query
+    auth: inherit

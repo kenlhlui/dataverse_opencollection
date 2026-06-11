@@ -1,0 +1,12 @@
+info:
+    name: External Tools Delete External Tool
+    type: http
+    seq: 87
+http:
+    method: DELETE
+    url: '{{baseUrl}}/admin/externalTools/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

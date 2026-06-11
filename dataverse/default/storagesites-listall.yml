@@ -1,0 +1,8 @@
+info:
+    name: Storage Sites List All
+    type: http
+    seq: 166
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/storageSites'
+    auth: inherit

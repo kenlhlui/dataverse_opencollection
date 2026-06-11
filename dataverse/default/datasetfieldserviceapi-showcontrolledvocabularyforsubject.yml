@@ -1,0 +1,8 @@
+info:
+    name: Dataset Field Service Api Show Controlled Vocabulary For Subject
+    type: http
+    seq: 66
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/datasetfield/controlledVocabulary/subject'
+    auth: inherit

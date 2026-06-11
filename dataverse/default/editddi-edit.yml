@@ -1,0 +1,17 @@
+info:
+    name: Edit Ddi Edit
+    type: http
+    seq: 393
+http:
+    method: PUT
+    url: '{{baseUrl}}/edit/:fileId'
+    params:
+        - name: fileId
+          value: '{{fileId}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/xml
+    body:
+        type: xml
+    auth: inherit

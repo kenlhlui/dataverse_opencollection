@@ -1,0 +1,12 @@
+info:
+    name: Datasets Reset Curation Label Set
+    type: http
+    seq: 230
+http:
+    method: DELETE
+    url: '{{baseUrl}}/datasets/:identifier/curationLabelSet'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

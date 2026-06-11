@@ -1,0 +1,17 @@
+info:
+    name: Datasets Delete Dataset Files
+    type: http
+    seq: 261
+http:
+    method: PUT
+    url: '{{baseUrl}}/datasets/:id/deleteFiles'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    headers:
+        - name: Content-Type
+          value: application/json
+    body:
+        type: json
+    auth: inherit

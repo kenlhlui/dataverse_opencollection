@@ -1,0 +1,15 @@
+info:
+    name: Datasets Lock Dataset
+    type: http
+    seq: 236
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:identifier/lock/:type'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: type
+          value: '{{type}}'
+          type: path
+    auth: inherit

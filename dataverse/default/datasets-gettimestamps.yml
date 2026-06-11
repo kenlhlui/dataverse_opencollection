@@ -1,0 +1,12 @@
+info:
+    name: Datasets Get Timestamps
+    type: http
+    seq: 247
+http:
+    method: GET
+    url: '{{baseUrl}}/datasets/:identifier/timestamps'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+    auth: inherit

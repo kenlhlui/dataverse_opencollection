@@ -1,0 +1,15 @@
+info:
+    name: Datasets Create Private Url
+    type: http
+    seq: 293
+http:
+    method: POST
+    url: '{{baseUrl}}/datasets/:id/privateUrl'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+        - name: anonymizedAccess
+          value: "false"
+          type: query
+    auth: inherit

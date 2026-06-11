@@ -1,0 +1,15 @@
+info:
+    name: Users Change Authenticated User Identifier
+    type: http
+    seq: 526
+http:
+    method: POST
+    url: '{{baseUrl}}/users/:identifier/changeIdentifier/:newIdentifier'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: newIdentifier
+          value: '{{newIdentifier}}'
+          type: path
+    auth: inherit

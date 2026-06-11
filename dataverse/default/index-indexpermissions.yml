@@ -1,0 +1,12 @@
+info:
+    name: Index Index Permissions
+    type: http
+    seq: 120
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/index/perms/:id'
+    params:
+        - name: id
+          value: '{{id}}'
+          type: path
+    auth: inherit

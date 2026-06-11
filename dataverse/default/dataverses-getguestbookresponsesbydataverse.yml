@@ -1,0 +1,15 @@
+info:
+    name: Dataverses Get Guestbook Responses By Dataverse
+    type: http
+    seq: 366
+http:
+    method: GET
+    url: '{{baseUrl}}/dataverses/:identifier/guestbookResponses'
+    params:
+        - name: identifier
+          value: '{{identifier}}'
+          type: path
+        - name: guestbookId
+          value: "0"
+          type: query
+    auth: inherit

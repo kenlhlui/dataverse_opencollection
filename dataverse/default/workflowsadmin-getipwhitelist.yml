@@ -1,0 +1,8 @@
+info:
+    name: Workflows Admin Get Ip Whitelist
+    type: http
+    seq: 189
+http:
+    method: GET
+    url: '{{baseUrl}}/admin/workflows/ip-whitelist'
+    auth: inherit

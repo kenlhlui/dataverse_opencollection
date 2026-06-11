@@ -1,0 +1,8 @@
+info:
+    name: Site Map Update Site Map
+    type: http
+    seq: 165
+http:
+    method: POST
+    url: '{{baseUrl}}/admin/sitemap'
+    auth: inherit
