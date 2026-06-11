@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  convert-openapi-to-bruno:
     runs-on: ubuntu-latest
     
     steps:
@@ -36,7 +36,7 @@ jobs:
       run: npm install -g @usebruno/cli
     
     - name: Convert OpenAPI spec to Bruno collection
-      run: bru import openapi config.yaml --output ./dataverse
+      run: bru import openapi -s config.yaml -o ./dataverse
     
     - name: Commit and push Bruno collection
       uses: stefanzweifel/git-auto-commit-action@v5
