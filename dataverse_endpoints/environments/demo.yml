@@ -2,9 +2,5 @@ name: default
 variables:
   - name: baseUrl
     value: https://demo.borealisdata.ca/api/
-    disabled: true
-  - name: baseUrl
-    value: https://borealisdata.ca/api/
   - secret: true
     name: API_TOKEN
-    disabled: true
