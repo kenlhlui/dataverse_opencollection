@@ -6,7 +6,7 @@ This project uses GitHub action with [vacuum CLI](https://quobix.com/vacuum/comm
 # ✅ Prerequisites
 Your Dataverse instance must have the OpenAPI specification enabled. You can check if it's enabled by navigating to `https://your-dataverse-instance/openapi`.
 
-Relevant discussion about OpenAPI specification in Dataverse:
+Relevant discussion about OpenAPI specification in Harvard Dataverse:
  - [Use OpenAPI standard for Dataverse API's (Swagger) #5794](https://github.com/IQSS/dataverse/issues/5794)
  - [Add Swagger like UI to view and call APIs #11994](https://github.com/IQSS/dataverse/issues/11994)
 
