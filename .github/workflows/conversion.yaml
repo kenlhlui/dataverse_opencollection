@@ -23,9 +23,7 @@ jobs:
       run: echo "BASE_URL=$(cat dv.txt)" >> $GITHUB_ENV
     
     - name: Get the Latest openapi spec from the Dataverse installation
-      env:
-        OPENAPI_URL: ${{ env.BASE_URL }}/openapi
-      run: curl -L  ${{ env.OPENAPI_URL }} -o config.yaml
+      run: curl -L  ${{ env.BASE_URL }}/openapi -o config.yaml
 
     - name: Setup Node.js
       uses: actions/setup-node@v6
@@ -43,5 +41,5 @@ jobs:
     - name: Commit and push openapi collection
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
-        commit_message: Update Openapi collection from OpenAPI spec [ci]
-        file_pattern: '. :!dataverse_endpoints/environments/default.yml'
+        commit_message: Update Openapi collection from OpenAPI spec from ${{ env.BASE_URL }}/openapi [ci]
+        file_pattern: '. :!dataverse_endpoints/environments/default.yml :!dataverse_endpoints/opencollection.yml :!config.yaml'

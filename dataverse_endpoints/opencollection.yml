@@ -1,10 +1,26 @@
 opencollection: 1.0.0
+
 info:
-    name: Dataverse API
-    summary: Open source research data repository software.
-    version: v6.8.1-SP
+  name: Dataverse API
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  headers:
+    - name: X-Dataverse-key
+      value: "{{API_TOKEN}}"
+bundled: false
 extensions:
-    bruno:
-        ignore:
-            - node_modules
-            - .git
+  bruno:
+    ignore:
+      - node_modules
+      - .git
