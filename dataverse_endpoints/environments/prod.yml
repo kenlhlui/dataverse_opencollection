@@ -1,0 +1,6 @@
+name: Prod
+variables:
+  - name: baseUrl
+    value: https://borealisdata.ca/api/
+  - secret: true
+    name: API_TOKEN
