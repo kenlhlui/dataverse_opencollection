@@ -3,4 +3,4 @@ variables:
   - name: baseUrl
     value: https://demo.borealisdata.ca/api/
   - secret: true
-    name: API_TOKEN
+    name: X_Dataverse_Key
