@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  convert-openapi-to-bruno:
+  convert-openapi-to-collection:
     runs-on: ubuntu-latest
     
     steps:
