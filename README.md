@@ -1,7 +1,7 @@
 # 🔀 Dataverse OpenAPI to OpenCollection
 
 # 📖 Introduction
-This project uses GitHub action with [vacuum CLI](https://quobix.com/vacuum/commands/) to convert the Dataverse OpenAPI specification to an OpenCollection specification.
+This repository automatically converts a Dataverse OpenAPI specification into an OpenCollection ([Bruno](https://www.usebruno.com/)) collection using GitHub Actions and the [vacuum CLI](https://quobix.com/vacuum/commands/). It also publishes a Swagger UI site for interactive API documentation and testing.
 
 # ✨ Features
 
@@ -29,7 +29,7 @@ Every request is pre-configured to include the `X-Dataverse-Key` header, sourced
 
 ---
 
-## </> Swagger UI
+## 🌐 Swagger UI
 
 A live [Swagger UI](https://kenlhlui.github.io/dataverse_opencollection) is available for browsing and
 testing all defined Dataverse API endpoints interactively — no local setup required.
