@@ -25,6 +25,10 @@ jobs:
     - name: Get the Latest openapi spec from the Dataverse installation
       run: curl -L  ${{ env.BASE_URL }}/openapi -o config.yaml
 
+    - name: Merge custom_config.yaml into config.yaml
+      run: |
+        yq -i '. * load("custom_config.yaml") | .components = (.components * load("custom_config.yaml").components)' config.yaml
+
     - name: Setup Node.js
       uses: actions/setup-node@v6
       with:
@@ -42,4 +46,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Update Openapi collection from OpenAPI spec from ${{ env.BASE_URL }}/openapi [ci]
-        file_pattern: '. :!dataverse_endpoints/environments/default.yml :!dataverse_endpoints/opencollection.yml :!config.yaml'
+        file_pattern: '. :!dataverse_endpoints/environments/default.yml'
