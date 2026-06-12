@@ -7,7 +7,7 @@ request:
     auth:
         type: apikey
         key: X-Dataverse-Key
-        value: '{{X_Dataverse_Key}}'
+        value: '{{API_TOKEN}}'
         placement: header
 extensions:
     bruno:
