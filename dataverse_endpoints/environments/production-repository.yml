@@ -1,4 +1,0 @@
-name: production-repository
-variables:
-    - name: baseUrl
-      value: https://borealisdata.ca/api

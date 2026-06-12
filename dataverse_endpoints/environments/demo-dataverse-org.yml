@@ -1,4 +1,0 @@
-name: demo-dataverse-org
-variables:
-    - name: baseUrl
-      value: https://demo.dataverse.org/api

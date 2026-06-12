@@ -46,4 +46,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Update Openapi collection from OpenAPI spec from ${{ env.BASE_URL }}/openapi [ci]
-        file_pattern: '. :!dataverse_endpoints/environments/default.yml'
+        file_pattern: '. :!dataverse_endpoints/environments/*'
