@@ -58,6 +58,7 @@ https://github.com/user-attachments/assets/60499d97-3021-4323-a4b1-294d253e9377
 Relevant discussion about OpenAPI specification in Harvard Dataverse Project:
  - [Use OpenAPI standard for Dataverse API's (Swagger) #5794](https://github.com/IQSS/dataverse/issues/5794)
  - [Add Swagger like UI to view and call APIs #11994](https://github.com/IQSS/dataverse/issues/11994)
+ - [Improve OpenAPI with detailed descriptions and auth requirements #12437](https://github.com/IQSS/dataverse/issues/12437)
 
 # ⚖️ License
 [MIT](LICENSE)
