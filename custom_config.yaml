@@ -1,0 +1,16 @@
+# The code snippet to be added to the OpenAPI specification.
+servers:
+  - url: https://borealisdata.ca/api
+    description: Production Repository
+  - url: https://demo.borealisdata.ca/api
+    description: Demo Repository
+  - url: https://demo.dataverse.org/api
+    description: Demo Dataverse.org
+security:
+  - DataverseKey: []
+components:
+  securitySchemes:
+    DataverseKey:
+      type: apiKey
+      in: header
+      name: X-Dataverse-Key

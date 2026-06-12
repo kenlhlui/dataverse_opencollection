@@ -1,0 +1,28 @@
+name: Generate Swagger UI and Deploy to GitHub Pages
+
+on:
+  workflow_run:
+    workflows: ["Conversion Workflow"] # Must exactly match the 'name:' of the upstream workflow
+    types:
+      - completed
+
+jobs:
+  generate-swagger-ui:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Generate Swagger UI
+      uses: Legion2/swagger-ui-action@v1
+      with:
+        output: swagger-ui
+        spec-file: config.yaml
+        version: 5.x
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: swagger-ui
