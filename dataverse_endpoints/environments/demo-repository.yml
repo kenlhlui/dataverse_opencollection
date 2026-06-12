@@ -1,0 +1,4 @@
+name: demo-repository
+variables:
+    - name: baseUrl
+      value: https://demo.borealisdata.ca/api
