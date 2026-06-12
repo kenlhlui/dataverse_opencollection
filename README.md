@@ -27,14 +27,14 @@ This repository is primarily designed for import into [Bruno](https://www.usebru
 - Environments
   - In the `prod` environment, the `baseUrl` is set to `https://borealisdata.ca/api/`
   - In the `demo` environment, a `baseUrl` is set to `https://demo.borealisdata.ca/api/`.
-  - This allows easy switch between repositories, while using the same API endpoint.
+  - This allows an easy switch between repositories while using the same API endpoint.
   - You can change the `baseUrl` values in `demo.yml`/`prod.yml` under dataverse_endpoints/environments/ if needed
-- By default, every API request sent out will be sent with the Header 'X-Dataverse-Key', and the value is set to the secret variable `API_TOKEN` in the respective environment.
+- By default, every API request sent out will be sent with the Header 'X-Dataverse-Key', and the value is set to the secret variable `X_Dataverse_Key` in the respective environment.
   - It will work by leaving it empty with the endpoint that doesn't require authentication. 
   - But it does not work with the endpoint that requires authentication. 
 
 # 🐶 Bruno
-See the video below for how to import this repository to Bruno and use it to test the API endpoints.
+See the video below for instructions on importing this repository into Bruno and using it to work with the API endpoints.
 
 https://github.com/user-attachments/assets/60499d97-3021-4323-a4b1-294d253e9377
 
