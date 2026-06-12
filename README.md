@@ -3,6 +3,37 @@
 # 📖 Introduction
 This project uses GitHub action with [vacuum CLI](https://quobix.com/vacuum/commands/) to convert the Dataverse OpenAPI specification to an OpenCollection specification.
 
+# ✨ Features
+
+## 🇨 OpenCollection (Bruno)
+
+This repository is designed for direct import into [Bruno](https://www.usebruno.com/) as an API collection.
+
+**Environments**
+
+Two pre-configured environments are included:
+
+| Environment | Base URL |
+|-------------|----------|
+| `prod`      | `https://borealisdata.ca/api/` |
+| `demo`      | `https://demo.borealisdata.ca/api/` |
+
+You can switch between environments without changing your requests. To use a different Dataverse instance, update the `baseUrl` in `demo.yml` or `prod.yml` under `dataverse_endpoints/environments/`.
+
+**Authentication**
+
+Every request is pre-configured to include the `X-Dataverse-Key` header, sourced from the `X_Dataverse_Key` secret variable in each environment.
+
+- Endpoints that **do not require authentication** will work with the header left empty.
+- Endpoints that **require authentication** will need the variable populated with a valid API token.
+
+---
+
+## </> Swagger UI
+
+A live [Swagger UI](https://kenlhlui.github.io/dataverse_opencollection) is available for browsing and
+testing all defined Dataverse API endpoints interactively — no local setup required.
+
 # ✅ Prerequisites
 Your Dataverse instance must have the OpenAPI specification enabled. You can check if it's enabled by navigating to `https://your-dataverse-instance/openapi`.
 
@@ -12,21 +43,11 @@ To use this repository with [Bruno](https://www.usebruno.com/downloads), you wil
 1. Fork this repository.
 2. Enable GitHub Actions in your forked repository.
 3. Change the URL in the `dv.txt` file to point to your Dataverse instance. For example, if your Dataverse instance is hosted at `https://demo.dataverse.org` (without the trailing slash), you would change the line in `dv.txt` to: ```https://demo.dataverse.org```.
-4. Commit and push the changes to your forked repository.
-5. The GitHub Action will automatically run and convert the Dataverse OpenAPI specification to an OpenCollection specification, and commit the changes to the main branch of your forked repository.
-
-# ✨ Features
-
-This repository is primarily designed for import into [Bruno](https://www.usebruno.com/) as a collection.
-
-- Environments
-  - In the `prod` environment, the `baseUrl` is set to `https://borealisdata.ca/api/`
-  - In the `demo` environment, a `baseUrl` is set to `https://demo.borealisdata.ca/api/`.
-  - This allows an easy switch between repositories while using the same API endpoint.
-  - You can change the `baseUrl` values in `demo.yml`/`prod.yml` under dataverse_endpoints/environments/ if needed
-- By default, every API request sent out will be sent with the Header 'X-Dataverse-Key', and the value is set to the secret variable `X_Dataverse_Key` in the respective environment.
-  - It will work by leaving it empty with the endpoint that doesn't require authentication. 
-  - But it does not work with the endpoint that requires authentication. 
+4. Update the `baseUrl` values in demo.yml/prod.yml under dataverse_endpoints/environments/ with your demo/prod Dataverse instances.
+5. Change the values under `servers` in custom_config.yaml file to your dataverse instance as well.
+6. Commit and push the changes to your forked repository.
+7. The GitHub Action will automatically run and convert the Dataverse OpenAPI specification to an OpenCollection specification, and commit the changes to the main branch of your forked repository.
+8. A [Swagger UI](https://swagger.io/) page will also be deployed with the URL https://{YOUR_GITHUB_USER_NAME}.github.io/dataverse_opencollection/
 
 # 🐶 Bruno
 See the video below for instructions on importing this repository into Bruno and using it to work with the API endpoints.
