@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-09-06 03:32:58 UTC_
+_Last updated: 2026-09-13 03:50:08 UTC_
 
-_Overall availability: 107/150 (71.33%)_
+_Overall availability: 108/150 (72.00%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -127,10 +127,10 @@ _Overall availability: 107/150 (71.33%)_
   <td><a href="https://dataverse.cidacs.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CIFOR</td>
   <td><a href="https://data.cifor.org">data.cifor.org</a></td>
-  <td>-</td>
+  <td><a href="https://data.cifor.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -139,10 +139,10 @@ _Overall availability: 107/150 (71.33%)_
   <td><a href="https://data.cimmyt.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CIRAD Dataverse</td>
   <td><a href="https://dataverse.cirad.fr">dataverse.cirad.fr</a></td>
-  <td><a href="https://dataverse.cirad.fr/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -259,10 +259,10 @@ _Overall availability: 107/150 (71.33%)_
   <td><a href="https://dataportal.ing.pan.pl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>DataRepositoriUM</td>
   <td><a href="https://datarepositorium.sdum.uminho.pt">datarepositorium.sdum.uminho.pt</a></td>
-  <td>-</td>
+  <td><a href="https://datarepositorium.sdum.uminho.pt/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -343,10 +343,10 @@ _Overall availability: 107/150 (71.33%)_
   <td><a href="https://edmond.mpdl.mpg.de/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>FGV Dataverse</td>
   <td><a href="https://dataverse.fgv.br">dataverse.fgv.br</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.fgv.br/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -367,10 +367,10 @@ _Overall availability: 107/150 (71.33%)_
   <td><a href="https://dataverse.orc.gmu.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Gustave Eiffel University Dataverse</td>
   <td><a href="https://data.univ-gustave-eiffel.fr">data.univ-gustave-eiffel.fr</a></td>
-  <td><a href="https://data.univ-gustave-eiffel.fr/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
