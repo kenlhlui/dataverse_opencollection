@@ -1,3 +1,5 @@
 info:
     name: addGlobusFilesToDataset
     seq: 5
+request:
+    auth: inherit

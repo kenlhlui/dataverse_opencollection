@@ -1,3 +1,5 @@
 info:
     name: addFilesToDataset
     seq: 4
+request:
+    auth: inherit

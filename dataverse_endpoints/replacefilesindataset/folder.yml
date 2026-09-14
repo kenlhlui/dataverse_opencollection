@@ -1,3 +1,5 @@
 info:
     name: replaceFilesInDataset
     seq: 6
+request:
+    auth: inherit
