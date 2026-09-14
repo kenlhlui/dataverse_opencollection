@@ -2,9 +2,9 @@ name: Conversion Workflow
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,37 +13,40 @@ permissions:
 jobs:
   convert-openapi-to-collection:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-         
-    - name: Read the baseUrl from dv.txt
-      id: read_base_url
-      run: echo "BASE_URL=$(cat dv.txt)" >> $GITHUB_ENV
-    
-    - name: Get the Latest openapi spec from the Dataverse installation
-      run: curl -L  ${{ env.BASE_URL }}/openapi -o config.yaml
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Merge custom_config.yaml into config.yaml
-      run: |
-        yq -i '. * load("custom_config.yaml") | .components = (.components * load("custom_config.yaml").components)' config.yaml
+      - name: Read the baseUrl from dv.txt
+        id: read_base_url
+        run: echo "BASE_URL=$(cat dv.txt)" >> $GITHUB_ENV
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v6
-      with:
-        node-version: '24'
+      - name: Get the Latest openapi spec from the Dataverse installation
+        run: curl -L  ${{ env.BASE_URL }}/openapi -o config.yaml
 
-    - name: Install the vacuum CLI
-      run: npm i -g @quobix/vacuum
-    
-    - name: Convert OpenAPI spec to Openapi collection
-      env:
-        NODE_OPTIONS: --max-old-space-size=7168
-      run: vacuum open-collection config.yaml ./dataverse_endpoints/ --name "Dataverse API" -q
-    
-    - name: Commit and push openapi collection
-      uses: stefanzweifel/git-auto-commit-action@v7
-      with:
-        commit_message: Update Openapi collection from OpenAPI spec from ${{ env.BASE_URL }}/openapi [ci]
-        file_pattern: '. :!dataverse_endpoints/environments/*'
+      - name: Merge custom_config.yaml into config.yaml
+        run: |
+          yq -i '. * load("custom_config.yaml") | .components = (.components * load("custom_config.yaml").components)' config.yaml
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install the vacuum CLI
+        run: npm i -g @quobix/vacuum
+
+      - name: Convert OpenAPI spec to Openapi collection
+        env:
+          NODE_OPTIONS: --max-old-space-size=7168
+        run: vacuum open-collection config.yaml ./dataverse_endpoints/ --name "Dataverse API" -q
+
+      - name: Make folders inherit collection auth
+        run: python3 scripts/fix_folder_auth.py dataverse_endpoints
+
+      - name: Commit and push openapi collection
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Update Openapi collection from OpenAPI spec from ${{ env.BASE_URL }}/openapi [ci]
+          file_pattern: ". :!dataverse_endpoints/environments/*"
