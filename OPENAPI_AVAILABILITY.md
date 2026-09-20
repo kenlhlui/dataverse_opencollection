@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-09-13 03:50:08 UTC_
+_Last updated: 2026-09-20 03:59:40 UTC_
 
-_Overall availability: 108/150 (72.00%)_
+_Overall availability: 104/150 (69.33%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -43,16 +43,16 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://dataverse.adp.fdv.uni-lj.si/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Arca Dados</td>
   <td><a href="https://arcadados.fiocruz.br">arcadados.fiocruz.br</a></td>
-  <td><a href="https://arcadados.fiocruz.br/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>ARP</td>
   <td><a href="https://repo.researchdata.hu">repo.researchdata.hu</a></td>
-  <td>-</td>
+  <td><a href="https://repo.researchdata.hu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -67,10 +67,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://data.aussda.at/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>BioData.pt Data Management Portal (DMPortal)</td>
   <td><a href="https://dmportal.biodata.pt">dmportal.biodata.pt</a></td>
-  <td><a href="https://dmportal.biodata.pt/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -139,16 +139,16 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://data.cimmyt.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CIRAD Dataverse</td>
   <td><a href="https://dataverse.cirad.fr">dataverse.cirad.fr</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.cirad.fr/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CORA. Research Data Repository (RDR)</td>
   <td><a href="https://dataverse.csuc.cat">dataverse.csuc.cat</a></td>
-  <td><a href="https://dataverse.csuc.cat/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -313,10 +313,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://datospararesiliencia.cl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>DeiC Dataverse</td>
   <td><a href="https://dataverse.deic.dk">dataverse.deic.dk</a></td>
-  <td><a href="https://dataverse.deic.dk/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -427,10 +427,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://dataverse.ifdc.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>IISH Dataverse</td>
   <td><a href="https://datasets.iisg.amsterdam">datasets.iisg.amsterdam</a></td>
-  <td><a href="https://datasets.iisg.amsterdam/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -505,10 +505,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://rdr.kuleuven.be/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Libra Data</td>
   <td><a href="https://dataverse.lib.virginia.edu">dataverse.lib.virginia.edu</a></td>
-  <td><a href="https://dataverse.lib.virginia.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
