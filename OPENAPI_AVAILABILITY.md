@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-09-20 03:59:40 UTC_
+_Last updated: 2026-09-27 04:19:35 UTC_
 
-_Overall availability: 104/150 (69.33%)_
+_Overall availability: 100/150 (66.67%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -43,10 +43,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.adp.fdv.uni-lj.si/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Arca Dados</td>
   <td><a href="https://arcadados.fiocruz.br">arcadados.fiocruz.br</a></td>
-  <td>-</td>
+  <td><a href="https://arcadados.fiocruz.br/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -115,10 +115,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.cbpf.br/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CESA | Repositorio de datos académicos</td>
   <td><a href="https://opendata.cesa.edu.co">opendata.cesa.edu.co</a></td>
-  <td><a href="https://opendata.cesa.edu.co/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -127,10 +127,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.cidacs.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CIFOR</td>
   <td><a href="https://data.cifor.org">data.cifor.org</a></td>
-  <td><a href="https://data.cifor.org/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -145,10 +145,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.cirad.fr/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CORA. Research Data Repository (RDR)</td>
   <td><a href="https://dataverse.csuc.cat">dataverse.csuc.cat</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.csuc.cat/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -163,10 +163,10 @@ _Overall availability: 104/150 (69.33%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CSDA Dataverse</td>
   <td><a href="https://archivdv.soc.cas.cz">archivdv.soc.cas.cz</a></td>
-  <td><a href="https://archivdv.soc.cas.cz/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -313,22 +313,22 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://datospararesiliencia.cl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>DeiC Dataverse</td>
   <td><a href="https://dataverse.deic.dk">dataverse.deic.dk</a></td>
+  <td><a href="https://dataverse.deic.dk/openapi">OpenAPI</a></td>
+</tr>
+<tr>
+  <td>❌</td>
+  <td>Domus Dados</td>
+  <td><a href="https://domusdados.unifesp.br">domusdados.unifesp.br</a></td>
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
-  <td>Domus Dados</td>
-  <td><a href="https://domusdados.unifesp.br">domusdados.unifesp.br</a></td>
-  <td><a href="https://domusdados.unifesp.br/openapi">OpenAPI</a></td>
-</tr>
-<tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>DR-NTU (Data)</td>
   <td><a href="https://researchdata.ntu.edu.sg">researchdata.ntu.edu.sg</a></td>
-  <td><a href="https://researchdata.ntu.edu.sg/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -367,10 +367,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.orc.gmu.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Gustave Eiffel University Dataverse</td>
   <td><a href="https://data.univ-gustave-eiffel.fr">data.univ-gustave-eiffel.fr</a></td>
-  <td>-</td>
+  <td><a href="https://data.univ-gustave-eiffel.fr/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -427,10 +427,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.ifdc.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>IISH Dataverse</td>
   <td><a href="https://datasets.iisg.amsterdam">datasets.iisg.amsterdam</a></td>
-  <td>-</td>
+  <td><a href="https://datasets.iisg.amsterdam/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -469,10 +469,10 @@ _Overall availability: 104/150 (69.33%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Italian Institute of Technology (IIT)</td>
   <td><a href="https://dataverse.iit.it">dataverse.iit.it</a></td>
-  <td><a href="https://dataverse.iit.it/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -505,10 +505,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://rdr.kuleuven.be/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Libra Data</td>
   <td><a href="https://dataverse.lib.virginia.edu">dataverse.lib.virginia.edu</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.lib.virginia.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -547,10 +547,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://investigacionartes.mincultura.gov.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>NIE Data Repository</td>
   <td><a href="https://researchdata.nie.edu.sg">researchdata.nie.edu.sg</a></td>
-  <td><a href="https://researchdata.nie.edu.sg/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -703,10 +703,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.javeriana.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Repositorio de Datos Universidad Distrital Francisco José de Caldas</td>
   <td><a href="https://datosinvestigacion.udistrital.edu.co">datosinvestigacion.udistrital.edu.co</a></td>
-  <td><a href="https://datosinvestigacion.udistrital.edu.co/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -799,10 +799,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://www.sodha.be/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Tecnológico de Monterrey Data Hub</td>
   <td><a href="https://datahub.tec.mx">datahub.tec.mx</a></td>
-  <td><a href="https://datahub.tec.mx/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -901,10 +901,10 @@ _Overall availability: 104/150 (69.33%)_
   <td><a href="https://dataverse.vtti.vt.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>World Agroforestry - Research Data Repository</td>
   <td><a href="https://data.worldagroforestry.org">data.worldagroforestry.org</a></td>
-  <td><a href="https://data.worldagroforestry.org/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
