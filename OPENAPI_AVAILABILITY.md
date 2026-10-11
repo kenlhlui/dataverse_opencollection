@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-10-04 04:54:10 UTC_
+_Last updated: 2026-10-11 04:42:36 UTC_
 
-_Overall availability: 103/150 (68.67%)_
+_Overall availability: 102/150 (68.00%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -97,10 +97,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://data.brin.go.id/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>BSC Dataverse</td>
   <td><a href="https://dataverse.bsc.es">dataverse.bsc.es</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.bsc.es/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -115,10 +115,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://dataverse.cbpf.br/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CESA | Repositorio de datos académicos</td>
   <td><a href="https://opendata.cesa.edu.co">opendata.cesa.edu.co</a></td>
-  <td>-</td>
+  <td><a href="https://opendata.cesa.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -133,10 +133,10 @@ _Overall availability: 103/150 (68.67%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CIMMYT Research Data</td>
   <td><a href="https://data.cimmyt.org">data.cimmyt.org</a></td>
-  <td><a href="https://data.cimmyt.org/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -169,10 +169,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://archivdv.soc.cas.cz/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>CUHK Research Data Repository</td>
   <td><a href="https://researchdata.cuhk.edu.hk">researchdata.cuhk.edu.hk</a></td>
-  <td><a href="https://researchdata.cuhk.edu.hk/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -193,10 +193,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://archaeology.datastations.nl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>DANS Data Station Life Sciences</td>
   <td><a href="https://lifesciences.datastations.nl">lifesciences.datastations.nl</a></td>
-  <td><a href="https://lifesciences.datastations.nl/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -451,10 +451,10 @@ _Overall availability: 103/150 (68.67%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>ioerDATA</td>
   <td><a href="https://data.fdz.ioer.de">data.fdz.ioer.de</a></td>
-  <td>-</td>
+  <td><a href="https://data.fdz.ioer.de/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -505,10 +505,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://rdr.kuleuven.be/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Libra Data</td>
   <td><a href="https://dataverse.lib.virginia.edu">dataverse.lib.virginia.edu</a></td>
-  <td><a href="https://dataverse.lib.virginia.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -679,10 +679,10 @@ _Overall availability: 103/150 (68.67%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Repositorio de Datos de Investigación USACH</td>
   <td><a href="https://datos.usach.cl">datos.usach.cl</a></td>
-  <td><a href="https://datos.usach.cl/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -703,10 +703,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://dataverse.javeriana.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Repositorio de Datos Universidad Distrital Francisco José de Caldas</td>
   <td><a href="https://datosinvestigacion.udistrital.edu.co">datosinvestigacion.udistrital.edu.co</a></td>
-  <td>-</td>
+  <td><a href="https://datosinvestigacion.udistrital.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -901,16 +901,16 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://dataverse.vtti.vt.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>World Agroforestry - Research Data Repository</td>
   <td><a href="https://data.worldagroforestry.org">data.worldagroforestry.org</a></td>
-  <td>-</td>
+  <td><a href="https://data.worldagroforestry.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Wyoming Data Repository</td>
   <td><a href="https://dataverse.arcc.uwyo.edu">dataverse.arcc.uwyo.edu</a></td>
-  <td><a href="https://dataverse.arcc.uwyo.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
