@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-10-11 04:42:36 UTC_
+_Last updated: 2026-10-18 03:37:07 UTC_
 
-_Overall availability: 102/150 (68.00%)_
+_Overall availability: 108/150 (72.00%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -133,10 +133,10 @@ _Overall availability: 102/150 (68.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CIMMYT Research Data</td>
   <td><a href="https://data.cimmyt.org">data.cimmyt.org</a></td>
-  <td>-</td>
+  <td><a href="https://data.cimmyt.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -169,10 +169,10 @@ _Overall availability: 102/150 (68.00%)_
   <td><a href="https://archivdv.soc.cas.cz/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CUHK Research Data Repository</td>
   <td><a href="https://researchdata.cuhk.edu.hk">researchdata.cuhk.edu.hk</a></td>
-  <td>-</td>
+  <td><a href="https://researchdata.cuhk.edu.hk/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -193,10 +193,10 @@ _Overall availability: 102/150 (68.00%)_
   <td><a href="https://archaeology.datastations.nl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>DANS Data Station Life Sciences</td>
   <td><a href="https://lifesciences.datastations.nl">lifesciences.datastations.nl</a></td>
-  <td>-</td>
+  <td><a href="https://lifesciences.datastations.nl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -469,10 +469,10 @@ _Overall availability: 102/150 (68.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Italian Institute of Technology (IIT)</td>
   <td><a href="https://dataverse.iit.it">dataverse.iit.it</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.iit.it/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -505,10 +505,10 @@ _Overall availability: 102/150 (68.00%)_
   <td><a href="https://rdr.kuleuven.be/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Libra Data</td>
   <td><a href="https://dataverse.lib.virginia.edu">dataverse.lib.virginia.edu</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.lib.virginia.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -679,10 +679,10 @@ _Overall availability: 102/150 (68.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Repositorio de Datos de Investigación USACH</td>
   <td><a href="https://datos.usach.cl">datos.usach.cl</a></td>
-  <td>-</td>
+  <td><a href="https://datos.usach.cl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
