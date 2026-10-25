@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-10-18 03:37:07 UTC_
+_Last updated: 2026-10-25 03:45:19 UTC_
 
-_Overall availability: 108/150 (72.00%)_
+_Overall availability: 103/150 (68.67%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -43,10 +43,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://dataverse.adp.fdv.uni-lj.si/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Arca Dados</td>
   <td><a href="https://arcadados.fiocruz.br">arcadados.fiocruz.br</a></td>
-  <td><a href="https://arcadados.fiocruz.br/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -415,10 +415,10 @@ _Overall availability: 108/150 (72.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>IDSC Dataverse</td>
   <td><a href="https://dataverse.iza.org">dataverse.iza.org</a></td>
-  <td><a href="https://dataverse.iza.org/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -451,10 +451,10 @@ _Overall availability: 108/150 (72.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>ioerDATA</td>
   <td><a href="https://data.fdz.ioer.de">data.fdz.ioer.de</a></td>
-  <td><a href="https://data.fdz.ioer.de/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -571,10 +571,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://portal.odissei.nl/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Open Data @ UCLouvain</td>
   <td><a href="https://dataverse.uclouvain.be">dataverse.uclouvain.be</a></td>
-  <td><a href="https://dataverse.uclouvain.be/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -625,10 +625,10 @@ _Overall availability: 108/150 (72.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Recherche Data Gouv</td>
   <td><a href="https://entrepot.recherche.data.gouv.fr">entrepot.recherche.data.gouv.fr</a></td>
-  <td>-</td>
+  <td><a href="https://entrepot.recherche.data.gouv.fr/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -655,10 +655,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://dataverse.unr.edu.ar/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Repositorio de datos de investigación de la Universidad de Chile</td>
   <td><a href="https://datos.uchile.cl">datos.uchile.cl</a></td>
-  <td><a href="https://datos.uchile.cl/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -733,10 +733,10 @@ _Overall availability: 108/150 (72.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Reposítorio SoilData</td>
   <td><a href="https://repositorio.soildata.mapbiomas.org">repositorio.soildata.mapbiomas.org</a></td>
-  <td><a href="https://repositorio.soildata.mapbiomas.org/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -889,10 +889,10 @@ _Overall availability: 108/150 (72.00%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>USC Dataverse</td>
   <td><a href="https://dataverse.carc.usc.edu">dataverse.carc.usc.edu</a></td>
-  <td><a href="https://dataverse.carc.usc.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -907,10 +907,10 @@ _Overall availability: 108/150 (72.00%)_
   <td><a href="https://data.worldagroforestry.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Wyoming Data Repository</td>
   <td><a href="https://dataverse.arcc.uwyo.edu">dataverse.arcc.uwyo.edu</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.arcc.uwyo.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
