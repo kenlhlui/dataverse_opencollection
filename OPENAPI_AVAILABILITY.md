@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-11-01 04:58:54 UTC_
+_Last updated: 2026-11-08 05:02:41 UTC_
 
-_Overall availability: 103/150 (68.67%)_
+_Overall availability: 105/151 (69.54%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -295,10 +295,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://dataverse.no/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>DataverseUA</td>
   <td><a href="https://opendata.nas.gov.ua">opendata.nas.gov.ua</a></td>
-  <td><a href="https://opendata.nas.gov.ua/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -373,10 +373,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://data.univ-gustave-eiffel.fr/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Göttingen Research Online</td>
   <td><a href="https://data.goettingen-research-online.de">data.goettingen-research-online.de</a></td>
-  <td>-</td>
+  <td><a href="https://data.goettingen-research-online.de/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -427,10 +427,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://dataverse.ifdc.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>IISH Dataverse</td>
   <td><a href="https://datasets.iisg.amsterdam">datasets.iisg.amsterdam</a></td>
-  <td><a href="https://datasets.iisg.amsterdam/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -697,10 +697,10 @@ _Overall availability: 103/150 (68.67%)_
   <td><a href="https://datasets.up.edu.pe/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Repositorio de Datos Pontificia Universidad Javeriana</td>
   <td><a href="https://dataverse.javeriana.edu.co">dataverse.javeriana.edu.co</a></td>
-  <td>-</td>
+  <td><a href="https://dataverse.javeriana.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -799,10 +799,10 @@ _Overall availability: 103/150 (68.67%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>Tecnológico de Monterrey Data Hub</td>
   <td><a href="https://datahub.tec.mx">datahub.tec.mx</a></td>
-  <td>-</td>
+  <td><a href="https://datahub.tec.mx/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -833,6 +833,12 @@ _Overall availability: 103/150 (68.67%)_
   <td>UC Berkeley Library Dataverse</td>
   <td><a href="https://datasets.lib.berkeley.edu">datasets.lib.berkeley.edu</a></td>
   <td><a href="https://datasets.lib.berkeley.edu/openapi">OpenAPI</a></td>
+</tr>
+<tr>
+  <td>✅</td>
+  <td>UCB Research Data Repository</td>
+  <td><a href="https://dataverse.ucb.edu.bo">dataverse.ucb.edu.bo</a></td>
+  <td><a href="https://dataverse.ucb.edu.bo/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
