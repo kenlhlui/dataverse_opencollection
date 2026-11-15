@@ -1,8 +1,8 @@
 # Dataverse OpenAPI Availability
 
-_Last updated: 2026-11-08 05:02:41 UTC_
+_Last updated: 2026-11-15 05:27:33 UTC_
 
-_Overall availability: 105/151 (69.54%)_
+_Overall availability: 101/151 (66.89%)_
 
 > [!WARNING]
 > Availability results are based on automated checks performed from GitHub Actions. Some installations may block automated traffic or be temporarily unavailable due to maintenance, resulting in false negatives. If you believe an availability result is incorrect, please verify it with the installation administrators.
@@ -127,10 +127,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.cidacs.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>CIFOR</td>
   <td><a href="https://data.cifor.org">data.cifor.org</a></td>
-  <td>-</td>
+  <td><a href="https://data.cifor.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -217,10 +217,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dare.uol.de/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Dartmouth Dataverse</td>
   <td><a href="https://dataverse.dartmouth.edu">dataverse.dartmouth.edu</a></td>
-  <td><a href="https://dataverse.dartmouth.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -295,10 +295,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.no/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>DataverseUA</td>
   <td><a href="https://opendata.nas.gov.ua">opendata.nas.gov.ua</a></td>
-  <td>-</td>
+  <td><a href="https://opendata.nas.gov.ua/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>✅</td>
@@ -367,10 +367,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.orc.gmu.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Gustave Eiffel University Dataverse</td>
   <td><a href="https://data.univ-gustave-eiffel.fr">data.univ-gustave-eiffel.fr</a></td>
-  <td><a href="https://data.univ-gustave-eiffel.fr/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -427,10 +427,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.ifdc.org/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>❌</td>
+  <td>✅</td>
   <td>IISH Dataverse</td>
   <td><a href="https://datasets.iisg.amsterdam">datasets.iisg.amsterdam</a></td>
-  <td>-</td>
+  <td><a href="https://datasets.iisg.amsterdam/openapi">OpenAPI</a></td>
 </tr>
 <tr>
   <td>❌</td>
@@ -451,10 +451,10 @@ _Overall availability: 105/151 (69.54%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>ioerDATA</td>
   <td><a href="https://data.fdz.ioer.de">data.fdz.ioer.de</a></td>
-  <td><a href="https://data.fdz.ioer.de/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -469,10 +469,10 @@ _Overall availability: 105/151 (69.54%)_
   <td>-</td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Italian Institute of Technology (IIT)</td>
   <td><a href="https://dataverse.iit.it">dataverse.iit.it</a></td>
-  <td><a href="https://dataverse.iit.it/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -703,10 +703,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.javeriana.edu.co/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>Repositorio de Datos Universidad Distrital Francisco José de Caldas</td>
   <td><a href="https://datosinvestigacion.udistrital.edu.co">datosinvestigacion.udistrital.edu.co</a></td>
-  <td><a href="https://datosinvestigacion.udistrital.edu.co/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>❌</td>
@@ -847,10 +847,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.ucla.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>UD Dataverse</td>
   <td><a href="https://dataverse.udel.edu">dataverse.udel.edu</a></td>
-  <td><a href="https://dataverse.udel.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
@@ -901,10 +901,10 @@ _Overall availability: 105/151 (69.54%)_
   <td><a href="https://dataverse.carc.usc.edu/openapi">OpenAPI</a></td>
 </tr>
 <tr>
-  <td>✅</td>
+  <td>❌</td>
   <td>VTTI</td>
   <td><a href="https://dataverse.vtti.vt.edu">dataverse.vtti.vt.edu</a></td>
-  <td><a href="https://dataverse.vtti.vt.edu/openapi">OpenAPI</a></td>
+  <td>-</td>
 </tr>
 <tr>
   <td>✅</td>
